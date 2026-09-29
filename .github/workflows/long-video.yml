@@ -103,8 +103,10 @@ jobs:
           fi
           git config user.name "quran-reels-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add long_history.json data/en previews 2>/dev/null || true
-          if [ -n "$(git status --porcelain long_history.json data/en previews)" ]; then
+          for p in long_history.json data/en previews; do
+            if [ -e "$p" ]; then git add "$p"; fi
+          done
+          if ! git diff --cached --quiet; then
             git commit -m "long video: ${{ github.run_number }}"
             git pull --rebase
             git push
