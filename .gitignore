@@ -1,0 +1,4 @@
+out_long/
+.cache/
+assets/
+__pycache__/
