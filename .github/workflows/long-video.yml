@@ -1,0 +1,111 @@
+name: Long videos (YouTube)
+
+on:
+  schedule:
+    # UTC. Rendering takes 20–60 min, so the video goes live a little after these times.
+    - cron: "5 4 * * *"    # Arabic – slot 1: a full surah (Al-Kahf on Fridays)   ≈ 7am Cairo
+    - cron: "5 11 * * *"   # English – slot 1                                    ≈ 7am New York
+    - cron: "5 16 * * *"   # Arabic – slot 2: juz / Quran before sleep / duas     ≈ 7pm Cairo
+    - cron: "5 23 * * *"   # English – slot 2                                    ≈ 7pm New York
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "ar / en  (empty = the automatic slot for this hour – publishes)"
+        default: ""
+      slot:
+        description: "1 = surah of the day, 2 = evening video"
+        default: "1"
+      kind:
+        description: "surah / juz / duas / sleep  (empty = today's plan)"
+        default: ""
+      key:
+        description: "surah number or juz number (with kind)"
+        default: ""
+      reciter:
+        description: "husary / minshawi / abdulbasit / tablawi (empty = rotate)"
+        default: ""
+      preview:
+        description: "Seconds to render for a quick check (empty = full video)"
+        default: ""
+      publish:
+        description: "Publish to YouTube? (true / false)"
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: long-video-${{ inputs.channel || 'auto' }}
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install FFmpeg & Arabic text shaping
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg libraqm0 libfribidi0 libharfbuzz0b
+          pip install -q requests Pillow numpy
+
+      - name: Decide what to make
+        id: plan
+        run: |
+          C="${{ inputs.channel }}"
+          if [ -z "$C" ]; then
+            H=$((10#$(date -u +%H)))
+            if [ $H -ge 2 ] && [ $H -le 8 ]; then C=ar; elif [ $H -ge 9 ] && [ $H -le 13 ]; then C=en
+            elif [ $H -ge 14 ] && [ $H -le 19 ]; then C=ar; else C=en; fi
+            A="--auto --publish"
+          else
+            A="--channel $C --slot ${{ inputs.slot || '1' }}"
+            if [ -n "${{ inputs.kind }}" ]; then A="$A --kind ${{ inputs.kind }}"; fi
+            if [ -n "${{ inputs.key }}" ]; then A="$A --key ${{ inputs.key }}"; fi
+            if [ -n "${{ inputs.reciter }}" ]; then A="$A --reciter ${{ inputs.reciter }}"; fi
+            if [ -n "${{ inputs.preview }}" ]; then A="$A --preview ${{ inputs.preview }}";
+            elif [ "${{ inputs.publish }}" = "true" ]; then A="$A --publish"; fi
+          fi
+          echo "channel=$C" >> $GITHUB_OUTPUT
+          echo "args=$A" >> $GITHUB_OUTPUT
+          echo "channel=$C args=$A"
+
+      - name: Make (and publish) the video
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          YT_CLIENT_ID: ${{ steps.plan.outputs.channel == 'en' && secrets.EN_YT_CLIENT_ID || secrets.AR_YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ steps.plan.outputs.channel == 'en' && secrets.EN_YT_CLIENT_SECRET || secrets.AR_YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ steps.plan.outputs.channel == 'en' && secrets.EN_YT_REFRESH_TOKEN || secrets.AR_YT_REFRESH_TOKEN }}
+          YT_CHANNEL_ID: ${{ steps.plan.outputs.channel == 'en' && secrets.EN_YT_CHANNEL_ID || secrets.AR_YT_CHANNEL_ID }}
+        run: python -u -m long.main ${{ steps.plan.outputs.args }}
+
+      - name: Thumbnail, frames & description (download from the run page)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: long-${{ github.run_number }}
+          path: |
+            out_long/thumbnail.jpg
+            out_long/frames/*.jpg
+            out_long/*.txt
+          retention-days: 14
+
+      - name: Save history, English data & preview frames
+        if: always()
+        run: |
+          if [ -n "${{ inputs.preview }}" ] && [ -d out_long/frames ]; then
+            rm -rf previews && mkdir -p previews && cp out_long/frames/*.jpg out_long/thumbnail.jpg previews/ 2>/dev/null || true
+          fi
+          git config user.name "quran-reels-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add long_history.json data/en previews 2>/dev/null || true
+          if [ -n "$(git status --porcelain long_history.json data/en previews)" ]; then
+            git commit -m "long video: ${{ github.run_number }}"
+            git pull --rebase
+            git push
+          fi
