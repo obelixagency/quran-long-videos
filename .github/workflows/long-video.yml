@@ -63,6 +63,15 @@ jobs:
             if [ $H -ge 2 ] && [ $H -le 8 ]; then C=ar; elif [ $H -ge 9 ] && [ $H -le 13 ]; then C=en
             elif [ $H -ge 14 ] && [ $H -le 19 ]; then C=ar; else C=en; fi
             A="--auto --publish"
+            CRON='${{ github.event.schedule }}'
+            if [ -n "$CRON" ]; then
+              case "$CRON" in "5 4 * * *") C=ar; S=1;; "5 11 * * *") C=en; S=1;; "5 16 * * *") C=ar; S=2;; *) C=en; S=2;; esac
+              EXP=$(date -u -d "$(date -u +%F) $(echo "$CRON" | awk '{printf "%02d:%02d", $2, $1}')" +%s); NOW=$(date -u +%s)
+              if [ "$EXP" -gt "$NOW" ]; then EXP=$((EXP - 86400)); fi
+              LATE=$(( (NOW - EXP) / 60 )); echo "cron $CRON started $LATE min late"
+              if [ "$LATE" -gt 180 ]; then echo "Too late for this time slot - skipping."; echo "skip=1" >> $GITHUB_OUTPUT; fi
+              A="$A --channel $C --slot $S"
+            fi
           else
             A="--channel $C --slot ${{ inputs.slot || '1' }}"
             if [ -n "${{ inputs.kind }}" ]; then A="$A --kind ${{ inputs.kind }}"; fi
@@ -76,6 +85,7 @@ jobs:
           echo "channel=$C args=$A"
 
       - name: Make (and publish) the video
+        if: steps.plan.outputs.skip != '1'
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           YT_CLIENT_ID: ${{ steps.plan.outputs.channel == 'en' && secrets.EN_YT_CLIENT_ID || secrets.AR_YT_CLIENT_ID }}
