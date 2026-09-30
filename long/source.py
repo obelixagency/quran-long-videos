@@ -168,7 +168,16 @@ def fetch_verse(reciter, surah, ayah):
         save_json(meta_path, meta)
 
     audio = CACHE / "audio" / reciter["key"] / f"{surah:03d}{ayah:03d}.mp3"
-    download(meta["audio_url"], audio)
+    try:
+        download(meta["audio_url"], audio)
+    except Exception as e:  # noqa: BLE001  (e.g. a quran.com CDN file that keeps returning 502)
+        fb = _from_fallback(reciter, surah, ayah)
+        if not fb["audio_url"] or fb["audio_url"] == meta["audio_url"]:
+            raise
+        print(f"  audio {surah}:{ayah} failed ({e}); using everyayah (estimated word timing)")
+        meta.update(audio_url=fb["audio_url"], segments=None)
+        save_json(meta_path, meta)
+        download(meta["audio_url"], audio)
 
     text = _clean(meta["text"], surah, ayah)
     words = words_of(text)
