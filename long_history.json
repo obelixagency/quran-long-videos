@@ -1,0 +1,29 @@
+{
+  "videos": [
+    {
+      "date": "2026-09-30T10:23:06+00:00",
+      "slot_key": "en-1-2026-09-30",
+      "channel": "Daily Serenity",
+      "slot": 1,
+      "kind": "surah",
+      "key": "36",
+      "reciter": "minshawi",
+      "minutes": 16.8,
+      "title": "Surah Ya-Sin (Ya Sin) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:39506681",
+        "pexels:35331259",
+        "pexels:29493911",
+        "pexels:27307945",
+        "pexels:5722280",
+        "pexels:14983290",
+        "pexels:5173766",
+        "pexels:30767622"
+      ],
+      "video_id": "p3u1lT33nfM",
+      "url": "https://youtu.be/p3u1lT33nfM",
+      "thumbnail": "skipped (403) – verify the channel by phone",
+      "privacy": "public"
+    }
+  ]
+}
