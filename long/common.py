@@ -25,7 +25,7 @@ def save_json(path, obj):
         json.dump(obj, f, ensure_ascii=False, indent=2)
 
 
-def http_get(url, *, headers=None, params=None, timeout=60, retries=3, stream=False):
+def http_get(url, *, headers=None, params=None, timeout=60, retries=6, stream=False):
     last = None
     for i in range(retries):
         try:
@@ -37,7 +37,7 @@ def http_get(url, *, headers=None, params=None, timeout=60, retries=3, stream=Fa
             return r
         except requests.RequestException as e:
             last = e
-            time.sleep(2 * (i + 1))
+            time.sleep(5 * (i + 1))  # CDN hiccups (502/503) usually clear within a minute
     raise last
 
 
