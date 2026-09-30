@@ -3,7 +3,7 @@
     {
       "date": "2026-09-30T10:23:06+00:00",
       "slot_key": "en-1-2026-09-30",
-      "channel": "Daily Serenity",
+      "channel": "en",
       "slot": 1,
       "kind": "surah",
       "key": "36",
@@ -23,12 +23,13 @@
       "video_id": "p3u1lT33nfM",
       "url": "https://youtu.be/p3u1lT33nfM",
       "thumbnail": "skipped (403) – verify the channel by phone",
-      "privacy": "public"
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     },
     {
       "date": "2026-09-30T17:10:15+00:00",
       "slot_key": "ar-2-2026-09-30",
-      "channel": "سَكينة يومية Daily Sakina",
+      "channel": "ar",
       "slot": 2,
       "kind": "sleep",
       "key": "sleep",
@@ -48,7 +49,8 @@
       "video_id": "nZz5GHygJwM",
       "url": "https://youtu.be/nZz5GHygJwM",
       "thumbnail": "ok",
-      "privacy": "public"
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
