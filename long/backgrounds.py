@@ -12,6 +12,16 @@ QUERIES = ["waterfall", "mountain lake", "forest stream", "misty mountains", "oc
 W, H, FPS = 1920, 1080, 24
 
 
+NO_PEOPLE = ("woman", "women", "man-", "-man", "men-", "person", "people", "girl", "boy", "child", "kid", "couple",
+             "hiker", "hiking", "walking", "tourist", "family", "friends", "crowd", "surfer", "lady", "guy", "face",
+             "portrait", "hand", "feet", "silhouette", "hood", "model", "dancer", "runner", "cyclist", "traveler")
+
+
+def no_people(url):
+    slug = (url or "").lower()
+    return not any(w in slug for w in NO_PEOPLE)
+
+
 def _pexels(n, used):
     key = os.getenv("PEXELS_API_KEY")
     if not key:
@@ -27,7 +37,8 @@ def _pexels(n, used):
         except Exception as e:  # noqa: BLE001
             print("  pexels failed:", e)
             continue
-        vids = [v for v in r.json().get("videos", []) if f"pexels:{v['id']}" not in used and v.get("duration", 0) >= 10]
+        vids = [v for v in r.json().get("videos", []) if f"pexels:{v['id']}" not in used and v.get("duration", 0) >= 10
+                and no_people(v.get("url"))]
         random.shuffle(vids)
         for v in vids[:2]:
             files = [f for f in v.get("video_files", []) if f.get("width") and f.get("height")

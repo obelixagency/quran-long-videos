@@ -11,6 +11,7 @@ import os
 import random
 
 from .common import CACHE, ROOT, download, http_get, run
+from .backgrounds import no_people
 from .render import EN_SANS, EN_SERIF, EN_SERIF_UP, UI_BOLD, UI_FONT, font
 
 TW, TH = 1280, 720
@@ -75,7 +76,8 @@ def _photo(kind, key):
         try:
             r = http_get("https://api.pexels.com/v1/search", headers={"Authorization": k},
                          params={"query": q, "orientation": "landscape", "size": "large", "per_page": 30})
-            ph = [p for p in r.json().get("photos", []) if p.get("width", 0) >= 1920]
+            ph = [p for p in r.json().get("photos", []) if p.get("width", 0) >= 1920 and no_people(p.get("url"))
+                  and no_people(p.get("alt"))]
             if ph:
                 p = random.choice(ph[:15])
                 return download(f"{p['src']['original']}?auto=compress&cs=tinysrgb&w=1920",
