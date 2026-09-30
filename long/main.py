@@ -214,7 +214,8 @@ def main():
     print("📺", res)
     history["videos"].append({"date": now.isoformat(timespec="seconds"), "slot_key": key_slot, "channel": channel,
                               "slot": slot, "kind": kind, "key": str(key), "reciter": reciter["key"],
-                              "minutes": round(total / 60, 1), "title": m["title"], "backgrounds": bg_ids, **res})
+                              "minutes": round(total / 60, 1), "title": m["title"], "backgrounds": bg_ids,
+                              **{("yt_channel" if k == "channel" else k): v for k, v in res.items()}})
     save_json(HISTORY, history)
 
 
