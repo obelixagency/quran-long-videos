@@ -1,0 +1,22 @@
+name: One-off catch-up (Oct 1, 2026)
+
+# The Arabic morning long video of Sep 30 was missed – post one extra on Oct 1 in the gap
+# between the normal Arabic times (7am and 7pm Cairo). Does nothing on any other date.
+on:
+  schedule:
+    - cron: "0 10 1 10 *"   # ≈ 1pm Cairo
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  go:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ "$(date -u +%F)" = "2026-10-01" ] || { echo "not Oct 1 – nothing to do"; exit 0; }
+          gh workflow run long-video.yml -R "${{ github.repository }}" -f channel=ar -f slot=1 -f publish=true
+          echo "extra Arabic long video started"
