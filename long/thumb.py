@@ -58,13 +58,26 @@ def _pill(d, xy, text, f, anchor_right, fill=GOLD, ink=INK, pad=(26, 12), rtl=Fa
 
 # a nature photo that fits the content (Pexels – free to use)
 PHOTO_QUERIES = {
-    ("surah", "18"): ["mountain cave light", "cave sunlight"], ("surah", "67"): ["starry night sky", "milky way"],
-    ("surah", "55"): ["flower garden", "green garden"], ("surah", "56"): ["desert night stars"],
-    ("surah", "19"): ["palm trees sunset"], ("surah", "12"): ["desert sunset"], ("surah", "36"): ["sunrise mountains"],
-    ("sleep", None): ["night sky stars", "moon night clouds"], ("duas", None): ["sun rays clouds", "sunrise sky"],
-    ("juz", None): ["mountain lake", "ocean horizon", "misty mountains"],
-    ("surah", None): ["waterfall forest", "misty mountains", "forest sunlight", "calm lake", "green valley"],
+    ("surah", "18"): ["mountain cave sunlight", "sunlight rocky mountains"],
+    ("surah", "67"): ["sunrise mountains", "golden hour mountains"],
+    ("surah", "55"): ["flower meadow mountains", "tulip field"], ("surah", "56"): ["desert sunrise dunes"],
+    ("surah", "19"): ["palm trees sunset"], ("surah", "12"): ["desert sunset dunes"],
+    ("surah", "36"): ["sunrise mountains", "golden sunrise valley"],
+    ("sleep", None): ["sunset lake reflection", "twilight mountains lake", "moon over sea sunset"],
+    ("duas", None): ["sun rays clouds", "sunrise sky clouds"],
+    ("juz", None): ["mountain lake", "turquoise sea coast", "green valley mountains"],
+    ("surah", None): ["waterfall forest", "misty mountains sunrise", "forest sunlight", "mountain lake",
+                      "green valley"],
 }
+
+
+def _lum(hexcol):
+    try:
+        h = hexcol.lstrip("#")
+        r, g, b = (int(h[i:i + 2], 16) for i in (0, 2, 4))
+        return 0.299 * r + 0.587 * g + 0.114 * b
+    except Exception:  # noqa: BLE001
+        return 100
 
 
 def _photo(kind, key):
@@ -77,7 +90,7 @@ def _photo(kind, key):
             r = http_get("https://api.pexels.com/v1/search", headers={"Authorization": k},
                          params={"query": q, "orientation": "landscape", "size": "large", "per_page": 30})
             ph = [p for p in r.json().get("photos", []) if p.get("width", 0) >= 1920 and no_people(p.get("url"))
-                  and no_people(p.get("alt"))]
+                  and no_people(p.get("alt")) and 70 <= _lum(p.get("avg_color", "")) <= 200]
             if ph:
                 p = random.choice(ph[:15])
                 return download(f"{p['src']['original']}?auto=compress&cs=tinysrgb&w=1920",
@@ -104,20 +117,22 @@ def make(background, dest, t, channel, kind=None, key=None, reciter=None):
     src = ["-i", str(photo)] if photo else ["-ss", "6", "-i", str(background), "-frames:v", "1"]
     run(["ffmpeg", "-y", "-loglevel", "error", *src,
          "-vf", f"scale={TW}:{TH}:force_original_aspect_ratio=increase,crop={TW}:{TH}", str(frame)])
-    bg = Image.open(frame).convert("RGB").filter(ImageFilter.GaussianBlur(0.8))
-    img = ImageEnhance.Contrast(ImageEnhance.Brightness(bg).enhance(0.8)).enhance(1.1).convert("RGBA")
+    bg = Image.open(frame).convert("RGB")
+    bg = ImageEnhance.Color(ImageEnhance.Contrast(bg).enhance(1.08)).enhance(1.18)
+    img = bg.convert("RGBA")
 
-    # brand gradient on the text side
+    # the landscape stays the hero: only a soft dark fade behind the text + a light bottom shade
     grad = Image.new("L", (TW, 1))
     for x in range(TW):
         p = (x / TW) if not en else (1 - x / TW)  # 0 at the far side, 1 at the text side
-        grad.putpixel((x, 0), int(245 * min(1.0, max(0.0, (p - 0.18) / 0.5)) ** 1.2))
-    shade = Image.new("RGBA", (TW, TH), GREEN + (255,))
+        grad.putpixel((x, 0), int(185 * min(1.0, max(0.0, (p - 0.3) / 0.55)) ** 1.4))
+    shade = Image.new("RGBA", (TW, TH), (8, 18, 13, 255))
     shade.putalpha(grad.resize((TW, TH)))
     img = Image.alpha_composite(img, shade)
     vign = Image.new("RGBA", (TW, TH), (0, 0, 0, 0))
-    ImageDraw.Draw(vign).rectangle((0, TH - 170, TW, TH), fill=(0, 0, 0, 90))
-    img = Image.alpha_composite(img, vign.filter(ImageFilter.GaussianBlur(60)))
+    ImageDraw.Draw(vign).rectangle((0, TH - 150, TW, TH), fill=(0, 0, 0, 70))
+    ImageDraw.Draw(vign).rectangle((0, 0, TW, 90), fill=(0, 0, 0, 40))
+    img = Image.alpha_composite(img, vign.filter(ImageFilter.GaussianBlur(50)))
     d = ImageDraw.Draw(img)
     d.rounded_rectangle((16, 16, TW - 16, TH - 16), radius=26, outline=GOLD[:3] + (200,), width=3)
 
@@ -151,18 +166,19 @@ def make(background, dest, t, channel, kind=None, key=None, reciter=None):
         ImageDraw.Draw(glow).ellipse((lx - 8, 44, lx + 176, 228), fill=(0, 0, 0, 140))
         img = Image.alpha_composite(img, glow.filter(ImageFilter.GaussianBlur(14)))
         img.alpha_composite(lg, (lx, 52))
-    d = ImageDraw.Draw(img)
+    # soft dark halo behind the text block, then all text on its own layer with a drop shadow
+    halo = Image.new("RGBA", (TW, TH), (0, 0, 0, 0))
+    hx = (TW - 820, TW - 20) if not en else (20, 820)
+    ImageDraw.Draw(halo).rounded_rectangle((hx[0], 70, hx[1], 650), radius=120, fill=(0, 0, 0, 95))
+    img = Image.alpha_composite(img, halo.filter(ImageFilter.GaussianBlur(70)))
+    layer = Image.new("RGBA", (TW, TH), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
     tw = 640 if rp else 760
 
     if not en:
         right = TW - 70
         _pill(d, (right, 92), t["tag"], font(UI_BOLD, 40), anchor_right=True, rtl=True)
         f_t = _fit(UI_BOLD, t["title"], tw, 168, rtl=True, minimum=84)
-        tl = Image.new("RGBA", (TW, TH), (0, 0, 0, 0))
-        ImageDraw.Draw(tl).text((right + 4, 330), t["title"], font=f_t, fill=(0, 0, 0, 230), anchor="rm",
-                                direction="rtl")
-        img = Image.alpha_composite(img, tl.filter(ImageFilter.GaussianBlur(9)))
-        d = ImageDraw.Draw(img)
         d.text((right, 322), t["title"], font=f_t, fill=BEIGE, anchor="rm", direction="rtl")
         d.line((right - 300, 446, right, 446), fill=GOLD, width=4)
         d.text((right, 500), t["line"], font=_fit(UI_BOLD, t["line"], tw, 50, rtl=True, minimum=34), fill=GOLD,
@@ -175,10 +191,6 @@ def make(background, dest, t, channel, kind=None, key=None, reciter=None):
         _pill(d, (left, 86), t["tag"], f_tag, anchor_right=False, spacing=3)
         d.text((left, 190), t["ar"], font=font(UI_BOLD, 58), fill=GOLD, anchor="lm", direction="rtl")
         f_t = _fit(EN_SERIF_UP, t["title"], tw, 132, weight=600, minimum=70)
-        tl = Image.new("RGBA", (TW, TH), (0, 0, 0, 0))
-        ImageDraw.Draw(tl).text((left + 3, 318), t["title"], font=f_t, fill=(0, 0, 0, 230), anchor="lm")
-        img = Image.alpha_composite(img, tl.filter(ImageFilter.GaussianBlur(9)))
-        d = ImageDraw.Draw(img)
         d.text((left, 312), t["title"], font=f_t, fill=BEIGE, anchor="lm")
         if t.get("sub"):
             d.text((left, 412), t["sub"], font=_fit(EN_SERIF, t["sub"], tw, 54, weight=500, minimum=34),
@@ -191,5 +203,11 @@ def make(background, dest, t, channel, kind=None, key=None, reciter=None):
             x += f_l.getlength(ch) + 2.5
         _pill(d, (left, 570), t["minutes"], font(EN_SANS, 26, 600), anchor_right=False,
               fill=GREEN + (255,), ink=GOLD, spacing=2, outline=GOLD)
+    a = layer.getchannel("A")
+    for blur, strength, off in ((10, 0.85, 4), (3, 0.6, 2)):
+        sh = Image.new("RGBA", (TW, TH), (0, 0, 0, 255))
+        sh.putalpha(a.point(lambda v, k=strength: int(v * k)).filter(ImageFilter.GaussianBlur(blur)))
+        img.alpha_composite(sh, (off, off))
+    img = Image.alpha_composite(img, layer)
     img.convert("RGB").save(dest, "JPEG", quality=92, optimize=True)
     return dest
