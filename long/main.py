@@ -157,7 +157,8 @@ def main():
 
     now = dt.datetime.now(dt.timezone.utc)
     history = load_json(HISTORY) if HISTORY.exists() else {"videos": []}
-    channel, slot = (auto_slot(now) if args.auto else (args.channel or "ar", args.slot or 1))
+    channel, slot = ((args.channel, args.slot or 1) if args.channel
+                     else auto_slot(now) if args.auto else ("ar", 1))
     key_slot = slot_key(channel, slot, now)
     if args.auto and args.publish and any(v.get("slot_key") == key_slot and v.get("video_id")
                                           for v in history["videos"]):
