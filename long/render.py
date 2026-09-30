@@ -24,12 +24,14 @@ UI_FONT = FONTS / "Amiri-Regular.ttf"
 UI_BOLD = FONTS / "Amiri-Bold.ttf"
 EN_SERIF = FONTS / "en" / "CormorantGaramond-Italic.ttf"
 EN_SANS = FONTS / "en" / "Jost.ttf"
+EN_SERIF_UP = FONTS / "en" / "CormorantGaramond.ttf"
 FONT_URLS = {
     QURAN_FONT: "https://github.com/google/fonts/raw/main/ofl/amiriquran/AmiriQuran-Regular.ttf",
     UI_FONT: "https://github.com/google/fonts/raw/main/ofl/amiri/Amiri-Regular.ttf",
     UI_BOLD: "https://github.com/google/fonts/raw/main/ofl/amiri/Amiri-Bold.ttf",
     EN_SERIF: "https://github.com/google/fonts/raw/main/ofl/cormorantgaramond/CormorantGaramond-Italic%5Bwght%5D.ttf",
     EN_SANS: "https://github.com/google/fonts/raw/main/ofl/jost/Jost%5Bwght%5D.ttf",
+    EN_SERIF_UP: "https://github.com/google/fonts/raw/main/ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf",
 }
 GOLD = (236, 214, 160, 255)
 WHITE = (255, 255, 255, 255)
@@ -64,6 +66,20 @@ def _wrap_rtl(tokens, f, max_w):
     return lines + ([cur] if cur else [])
 
 
+def _balanced_rtl(tokens, f, max_w):
+    """Same number of lines as greedy wrapping, but evenly filled (no single word left on a line)."""
+    lines = _wrap_rtl(tokens, f, max_w)
+    if len(lines) <= 1:
+        return lines
+    w = f.getlength(" ".join(tokens), direction="rtl") / len(lines)
+    while w < max_w:
+        ls = _wrap_rtl(tokens, f, w)
+        if len(ls) <= len(lines):
+            return ls
+        w += 10
+    return lines
+
+
 def _wrap_ltr(words, f, max_w):
     lines, cur = [], []
     for w in words:
@@ -88,7 +104,7 @@ class Layout:
         size = self.ar_start
         while True:
             f = font(QURAN_FONT, size)
-            lines = _wrap_rtl(tokens, f, self.max_w)
+            lines = _balanced_rtl(tokens, f, self.max_w)
             lh = int(size * 1.8)
             if len(lines) * lh <= self.ar_h:
                 return f, lines, lh
@@ -121,20 +137,25 @@ def split_ayah(layout, tokens):
 
 
 # ============================================================== layers
-def static_layer(*, brand, section, reciter_line, english):
-    """Panel + brand (top left) + section title (top right) + reciter line (bottom). Drawn once."""
+def static_layer(*, brand, section, reciter_line, english, logo=None):
+    """Panel + logo & brand (top corner) + section title (other corner) + reciter line (bottom). Drawn once."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ImageDraw.Draw(img).rounded_rectangle(PANEL, radius=56, fill=(10, 16, 14, 150))
     img = img.filter(ImageFilter.GaussianBlur(22))
+    if logo is not None:
+        lg = logo.copy()
+        lg.putalpha(lg.getchannel("A").point(lambda a: int(a * 0.9)))
+        img.alpha_composite(lg, (PANEL[0] + 30, 92 - lg.height // 2) if english else (PANEL[2] - 30 - lg.width, 92 - lg.height // 2))
+    off = (logo.width + 22) if logo is not None else 0
     d = ImageDraw.Draw(img)
     if english:
         f_b, f_s, f_r = font(EN_SANS, 30, 500), font(EN_SANS, 30, 450), font(EN_SANS, 32, 420)
-        _spaced(d, (PANEL[0] + 40, 92), brand.upper(), f_b, (255, 255, 255, 190), 9, anchor="l")
+        _spaced(d, (PANEL[0] + 40 + off, 92), brand.upper(), f_b, (255, 255, 255, 190), 9, anchor="l")
         _spaced(d, (PANEL[2] - 40, 92), section.upper(), f_s, GOLD, 6, anchor="r")
         d.text((W // 2, 955), reciter_line, font=f_r, fill=(255, 255, 255, 215), anchor="mm")
     else:
         f_b, f_s, f_r = font(UI_BOLD, 40), font(UI_BOLD, 40), font(UI_FONT, 40)
-        d.text((PANEL[2] - 30, 92), brand, font=f_b, fill=(255, 255, 255, 200), anchor="rm", direction="rtl")
+        d.text((PANEL[2] - 30 - off, 92), brand, font=f_b, fill=(255, 255, 255, 200), anchor="rm", direction="rtl")
         d.text((PANEL[0] + 30, 92), section, font=f_s, fill=GOLD, anchor="lm", direction="rtl")
         d.text((W // 2, 955), reciter_line, font=f_r, fill=(255, 255, 255, 215), anchor="mm", direction="rtl")
     return img
@@ -164,7 +185,7 @@ def build_card(layout, spec):
     ar_h = len(lines) * lh
     en = spec.get("en")
     en_fit = layout.fit_en(en) if en else None
-    en_h = (len(en_fit[1]) * en_fit[2] + 50) if en_fit else 0
+    en_h = (len(en_fit[1]) * en_fit[2] + 68) if en_fit else 0
     label_h = 64
     block = ar_h + en_h + label_h
     mid = (PANEL[1] + 890) // 2 + 10
@@ -176,7 +197,7 @@ def build_card(layout, spec):
     y = top + ar_h
     if en_fit:
         fe, elines, elh = en_fit
-        y += 22
+        y += 40
         d.line((cx - 120, y, cx + 120, y), fill=GOLD[:3] + (150,), width=2)
         y += 26
         for ln in elines:

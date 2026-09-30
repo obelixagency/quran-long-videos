@@ -127,7 +127,7 @@ def _ar(ctx, kind, key, r, minutes, chap_txt, n):
         else:
             title = f"سورة {name} كاملة | الشيخ {r} | تلاوة هادئة مع الآيات"
             intro = f"سورة {name} كاملة ({ayat_ar(n)}) بصوت الشيخ {r}، والآيات تظهر كلمة بكلمة مع التلاوة."
-        thumb = (f"سورة {name}", "كاملة" if int(key) != 18 else "يوم الجمعة")
+        thumb = {"title": f"سورة {name}", "tag": "يوم الجمعة" if int(key) == 18 else "كاملة"}
         tags = [f"سورة {name}", f"سورة {name} كاملة", f"سورة {name} {r}", r, "قرآن كريم", "تلاوة هادئة",
                 "القرآن الكريم كامل", "تلاوة خاشعة", "سكينة يومية"]
     elif kind == "juz":
@@ -136,21 +136,21 @@ def _ar(ctx, kind, key, r, minutes, chap_txt, n):
         title = f"الجزء {JUZ_AR[j - 1]}" + (f" ({nick})" if nick else "") + f" كاملًا | الشيخ {r} | تلاوة مرتلة"
         intro = (f"الجزء {JUZ_AR[j - 1]} من القرآن الكريم كاملًا بصوت الشيخ {r}، مع ظهور الآيات كلمة بكلمة. "
                  "جزء جديد كل فترة حتى نختم القرآن معًا بإذن الله.")
-        thumb = (f"الجزء {JUZ_AR[j - 1]}", nick or "كاملًا")
+        thumb = {"title": f"الجزء {JUZ_AR[j - 1]}", "tag": nick or "كاملًا"}
         tags = [f"الجزء {JUZ_AR[j - 1]}", f"الجزء {j}", nick or "جزء كامل", r, "قرآن كريم", "ختمة القرآن",
                 "تلاوة مرتلة", "سكينة يومية"]
     elif kind == "duas":
         title = f"أدعية من القرآن الكريم | من دعاء الأنبياء والمؤمنين | الشيخ {r}"
         intro = ("أجمل الأدعية التي وردت في القرآن الكريم على لسان الأنبياء والمؤمنين: «ربنا آتنا في الدنيا حسنة»، "
                  "«ربنا لا تزغ قلوبنا»، «رب اشرح لي صدري»، «لا إله إلا أنت سبحانك»… مرتبة حسب ترتيب المصحف.")
-        thumb = ("أدعية من القرآن", "ادعُ بها من قلبك")
+        thumb = {"title": "أدعية من القرآن", "tag": "ربنا آتنا في الدنيا حسنة"}
         tags = ["أدعية من القرآن", "أدعية قرآنية", "ربنا آتنا في الدنيا حسنة", "دعاء", "أدعية الأنبياء", r,
                 "قرآن كريم", "سكينة يومية"]
     else:
         title = f"قرآن قبل النوم | آية الكرسي وخواتيم البقرة والسجدة والملك والمعوذات | الشيخ {r}"
         intro = ("ما كان النبي ﷺ يقرؤه قبل النوم: آية الكرسي (البخاري)، وخواتيم سورة البقرة (البخاري ومسلم)، "
                  "وسورة السجدة وسورة الملك (الترمذي)، والإخلاص والمعوذتان (البخاري). نم على ذكر الله.")
-        thumb = ("قرآن قبل النوم", "آية الكرسي • الملك • المعوذات")
+        thumb = {"title": "قرآن قبل النوم", "tag": "آية الكرسي • الملك • المعوذات"}
         tags = ["قرآن قبل النوم", "سورة الملك", "آية الكرسي", "خواتيم البقرة", "رقية", "قرآن للنوم", r,
                 "سكينة يومية"]
     desc = "\n\n".join(x for x in [
@@ -162,6 +162,7 @@ def _ar(ctx, kind, key, r, minutes, chap_txt, n):
         "المصادر: نص المصحف والتلاوة وتوقيت الكلمات من Quran.com • الخلفيات من Pexels (مجانية الاستخدام).",
         "#قرآن_كريم #سكينة_يومية #تلاوة_هادئة",
     ] if x)
+    thumb.update(line=f"الشيخ {r}", minutes=f"{ar_num(minutes)} دقيقة")
     return {"title": title[:100], "description": desc[:4900], "tags": tags, "thumb": thumb, "lang": "ar"}
 
 
@@ -179,7 +180,7 @@ def _en(ctx, kind, key, r, minutes, chap_txt, n):
             title = f"Surah {name} ({meaning}) Full | Calm Quran Recitation with English Translation"
             intro = (f"Surah {name} – \"{meaning}\" – complete ({n} verses), recited by {r}. Every Arabic word appears "
                      "as it is recited, with the English translation under each verse.")
-        thumb = (f"Surah {name}", "Full · English Translation")
+        thumb = {"title": f"Surah {name}", "ar": f"سورة {ctx.ar_name(s)}", "sub": meaning, "tag": "FRIDAY · FULL SURAH" if s == 18 else "FULL · ENGLISH TRANSLATION"}
         tags = [f"Surah {name}", f"Surah {name} full", f"Surah {name} English translation", "Quran recitation",
                 "Quran with English translation", r, "beautiful Quran", "calm Quran", "Daily Serenity"]
     elif kind == "juz":
@@ -189,7 +190,7 @@ def _en(ctx, kind, key, r, minutes, chap_txt, n):
         intro = (f"Juz {j} of the Holy Quran, complete, recited by {r} – with the Arabic words appearing as they "
                  "are recited and the English translation under each verse. A new juz every few days until we "
                  "complete the whole Quran together.")
-        thumb = (f"Juz {j}", nick or "Full · English Translation")
+        thumb = {"title": f"Juz {j}", "ar": f"الجزء {JUZ_AR[j - 1]}", "sub": nick or "The complete juz", "tag": "FULL · ENGLISH TRANSLATION"}
         tags = [f"Juz {j}", f"Juz {j} full", nick or "Quran juz", "Quran recitation", "Quran with English translation",
                 r, "Quran khatm", "Daily Serenity"]
     elif kind == "duas":
@@ -197,7 +198,7 @@ def _en(ctx, kind, key, r, minutes, chap_txt, n):
         intro = ("The most beautiful supplications in the Quran – the duas of the Prophets and the believers: "
                  "\"Our Lord, give us good in this world\", \"Our Lord, let not our hearts deviate\", \"My Lord, "
                  "expand for me my breast\"… in the order of the mushaf, with the English meaning of each one.")
-        thumb = ("Duas from the Quran", "Rabbana · English Translation")
+        thumb = {"title": "Duas from the Quran", "ar": "أدعية من القرآن", "sub": "The duas of the Prophets", "tag": "ENGLISH TRANSLATION"}
         tags = ["duas from the Quran", "Rabbana duas", "Quranic duas", "dua with English translation",
                 "powerful dua", "Quran recitation", r, "Daily Serenity"]
     else:
@@ -205,7 +206,7 @@ def _en(ctx, kind, key, r, minutes, chap_txt, n):
         intro = ("What the Prophet ﷺ recited before sleeping: Ayat al-Kursi (Bukhari), the last two verses of "
                  "Al-Baqarah (Bukhari & Muslim), Surah As-Sajdah and Surah Al-Mulk (Tirmidhi), and Al-Ikhlas, "
                  "Al-Falaq and An-Nas (Bukhari) – with the English meaning. Sleep in the remembrance of Allah.")
-        thumb = ("Quran Before Sleep", "Ayat al-Kursi · Al-Mulk · 3 Quls")
+        thumb = {"title": "Quran Before Sleep", "ar": "قرآن قبل النوم", "sub": "Ayat al-Kursi · Al-Mulk · the 3 Quls", "tag": "ENGLISH TRANSLATION"}
         tags = ["Quran before sleep", "Quran for sleep", "Surah Al-Mulk", "Ayat al-Kursi", "last 3 surahs",
                 "sleep Quran", "Quran with English translation", "Daily Serenity"]
     desc = "\n\n".join(x for x in [
@@ -218,4 +219,5 @@ def _en(ctx, kind, key, r, minutes, chap_txt, n):
         "timings: Quran.com · Backgrounds: Pexels (free to use).",
         "#Quran #QuranRecitation #DailySerenity",
     ] if x)
+    thumb.update(line=r, minutes=f"{minutes} MIN")
     return {"title": title[:100], "description": desc[:4900], "tags": tags, "thumb": thumb, "lang": "en"}

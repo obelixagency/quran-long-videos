@@ -185,7 +185,8 @@ def main():
     r_line = (f"Recited by {meta.RECITERS_EN.get(reciter['key'], reciter['key'])}" if english
               else f"بصوت الشيخ {reciter['name']}")
     section = meta.section_title(ctx, kind, key, english)
-    static = static_layer(brand=BRAND[channel], section=section, reciter_line=r_line, english=english)
+    static = static_layer(brand=BRAND[channel], section=section, reciter_line=r_line, english=english,
+                          logo=thumb.logo(channel, 72))
     used = {i for v in history["videos"][-30:] for i in v.get("backgrounds", [])}
     bg, bg_ids = backgrounds.build(OUT / "bg.mp4", used)
     print(f"🌄 background: {len(bg_ids)} clip(s)")
@@ -197,7 +198,7 @@ def main():
     n_ayat = sum(1 for s in segs if s["ayah"])
     chaps = meta.chapters(ctx, kind, sections, marks, english) if not args.preview else [(0, section)]
     m = meta.build(ctx, kind, key, reciter, total, chaps, english, n_ayat)
-    th = thumb.make(bg, OUT / "thumbnail.jpg", m["thumb"][0], m["thumb"][1], r_line, BRAND[channel], english)
+    th = thumb.make(bg, OUT / "thumbnail.jpg", m["thumb"], channel, kind=kind, key=key, reciter=reciter["key"])
     (OUT / "title.txt").write_text(m["title"], encoding="utf-8")
     (OUT / "description.txt").write_text(m["description"], encoding="utf-8")
     (OUT / "frames").mkdir()
