@@ -24,6 +24,31 @@
       "url": "https://youtu.be/p3u1lT33nfM",
       "thumbnail": "skipped (403) – verify the channel by phone",
       "privacy": "public"
+    },
+    {
+      "date": "2026-09-30T17:10:15+00:00",
+      "slot_key": "ar-2-2026-09-30",
+      "channel": "سَكينة يومية Daily Sakina",
+      "slot": 2,
+      "kind": "sleep",
+      "key": "sleep",
+      "reciter": "minshawi",
+      "minutes": 19.5,
+      "title": "قرآن قبل النوم | آية الكرسي وخواتيم البقرة والسجدة والملك والمعوذات | الشيخ محمد صديق المنشاوي",
+      "backgrounds": [
+        "pexels:8744671",
+        "pexels:5536558",
+        "pexels:12657352",
+        "pexels:16681525",
+        "pexels:29266251",
+        "pexels:29143105",
+        "pexels:6815625",
+        "pexels:13893992"
+      ],
+      "video_id": "nZz5GHygJwM",
+      "url": "https://youtu.be/nZz5GHygJwM",
+      "thumbnail": "ok",
+      "privacy": "public"
     }
   ]
 }
