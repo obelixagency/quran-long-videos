@@ -129,6 +129,32 @@
       "thumbnail": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-01T11:06:25+00:00",
+      "slot_key": "en-1-2026-10-01",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "67",
+      "reciter": "husary",
+      "minutes": 11.4,
+      "title": "Surah Al-Mulk (The Sovereignty) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:8110359",
+        "pexels:34698830",
+        "pexels:7220614",
+        "pexels:27546116",
+        "pexels:6748729",
+        "pexels:9970849",
+        "pexels:17824025",
+        "pexels:9010840"
+      ],
+      "video_id": "mqshWV3tvy8",
+      "url": "https://youtu.be/mqshWV3tvy8",
+      "thumbnail": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
