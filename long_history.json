@@ -157,6 +157,23 @@
       "yt_channel": "Daily Serenity"
     },
     {
+      "date": "2026-10-01T16:06:00+00:00",
+      "slot_key": "ar-2-2026-10-01",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "30",
+      "reciter": "abdulbasit",
+      "minutes": 62.8,
+      "title": "(juz 30 – entry restored by hand; the save step had a git conflict)",
+      "backgrounds": [],
+      "video_id": "bXWh2NVr-s8",
+      "url": "https://youtu.be/bXWh2NVr-s8",
+      "thumbnail": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
       "date": "2026-10-01T17:03:36+00:00",
       "slot_key": "ar-1-2026-10-01",
       "channel": "ar",
