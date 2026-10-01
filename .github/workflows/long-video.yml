@@ -113,11 +113,28 @@ jobs:
           fi
           git config user.name "quran-reels-bot"
           git config user.email "actions@users.noreply.github.com"
-          for p in long_history.json data/en previews; do
-            if [ -e "$p" ]; then git add "$p"; fi
+          # Two videos can finish at the same time – never lose a history entry: start from the
+          # newest main every try and add this run's entries to it.
+          mkdir -p /tmp/keep
+          for p in long_history.json data/en previews; do if [ -e "$p" ]; then cp -r "$p" /tmp/keep/; fi; done
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            for p in data/en previews; do
+              b=$(basename "$p")
+              if [ -e "/tmp/keep/$b" ]; then rm -rf "$p"; mkdir -p "$(dirname "$p")"; cp -r "/tmp/keep/$b" "$p"; fi
+            done
+            python3 - <<'PY'
+          import json, os
+          mine = json.load(open("/tmp/keep/long_history.json")) if os.path.exists("/tmp/keep/long_history.json") else {"videos": []}
+          cur = json.load(open("long_history.json")) if os.path.exists("long_history.json") else {"videos": []}
+          seen = {(v.get("video_id"), v.get("date")) for v in cur["videos"]}
+          cur["videos"] += [v for v in mine["videos"] if (v.get("video_id"), v.get("date")) not in seen]
+          cur["videos"].sort(key=lambda v: v.get("date", ""))
+          with open("long_history.json", "w", encoding="utf-8") as f:
+              json.dump(cur, f, ensure_ascii=False, indent=2)
+          PY
+            for p in long_history.json data/en previews; do if [ -e "$p" ]; then git add "$p"; fi; done
+            if git diff --cached --quiet; then echo "nothing to save"; break; fi
+            if git commit -q -m "long video: ${{ github.run_number }}" && git push -q; then echo "saved"; break; fi
+            echo "push failed (try $i) - retrying"; sleep $((i * 5))
           done
-          if ! git diff --cached --quiet; then
-            git commit -m "long video: ${{ github.run_number }}"
-            git pull --rebase
-            git push
-          fi
