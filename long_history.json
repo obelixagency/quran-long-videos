@@ -103,6 +103,32 @@
       "thumbnail": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-01T04:06:04+00:00",
+      "slot_key": "ar-1-2026-10-01",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "36",
+      "reciter": "husary",
+      "minutes": 24.6,
+      "title": "سورة يس كاملة | الشيخ محمود خليل الحصري | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:10796508",
+        "pexels:7610644",
+        "pexels:34505128",
+        "pexels:28638599",
+        "pexels:39879538",
+        "pexels:35574238",
+        "pexels:2570206",
+        "pexels:855617"
+      ],
+      "video_id": "AnVH6cFH2U8",
+      "url": "https://youtu.be/AnVH6cFH2U8",
+      "thumbnail": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
