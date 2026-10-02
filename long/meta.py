@@ -5,6 +5,7 @@ from .common import ar_num
 RECITERS_EN = {
     "husary": "Sheikh Mahmoud Khalil Al-Husary", "minshawi": "Sheikh Mohamed Siddiq Al-Minshawi",
     "abdulbasit": "Sheikh Abdul Basit Abdus Samad", "tablawi": "Sheikh Mohamed Al-Tablawi",
+    "ayyoub": "Sheikh Muhammad Ayyub", "hudhaify": "Sheikh Ali Al-Hudhaify",
     "alafasy": "Sheikh Mishary Rashid Alafasy", "sudais": "Sheikh Abdul Rahman Al-Sudais",
     "shuraim": "Sheikh Saud Al-Shuraim", "maher": "Sheikh Maher Al-Muaiqly",
 }

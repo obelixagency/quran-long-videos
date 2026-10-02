@@ -2,7 +2,7 @@
 
   python -m long.main --auto --publish                  # decides channel + slot from the UTC hour
   python -m long.main --channel ar --slot 1             # render only (out_long/)
-  python -m long.main --channel en --kind juz --key 30 --reciter husary
+  python -m long.main --channel en --kind juz --key 30 --reciter ayyoub
   python -m long.main --channel ar --kind surah --key 67 --preview 60   # first ~60 s only, for checking
 """
 import argparse
@@ -19,7 +19,7 @@ from .source import fetch_verse, prefetch_chapter
 
 OUT = ROOT / "out_long"
 HISTORY = ROOT / "long_history.json"
-RECITERS = ["husary", "minshawi", "abdulbasit", "tablawi"]  # classic murattal recordings
+RECITERS = None  # None = every reciter with "enabled": true in data/reciters.json (copyright-free recordings only)
 BASMALA_EN = "In the name of Allah, the Beneficent, the Merciful."
 BRAND = {"ar": "سَكينة يومية", "en": "Daily Serenity"}
 
@@ -63,7 +63,8 @@ def pick_reciter(history, channel, forced=None):
     for i, v in enumerate(history["videos"]):
         if v["channel"] == channel:
             last[v["reciter"]] = i
-    return rs[min(RECITERS, key=lambda k: (last.get(k, -1), random.random()))]
+    pool = RECITERS or [k for k, r in rs.items() if r.get("enabled")]
+    return rs[min(pool, key=lambda k: (last.get(k, -1), random.random()))]
 
 
 def collect(sections, reciter, preview=None):
