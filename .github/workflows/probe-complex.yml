@@ -1,0 +1,20 @@
+name: Probe Quran Complex audio (read-only)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - run: |
+          for p in quran-audio-hafs-ayyoub en/category/moratal; do
+            echo "== $p"
+            curl -sSL -m 60 -A "Mozilla/5.0" -o page.html -w "%{http_code} %{size_download}\n" "https://qurancomplex.gov.sa/$p/" || true
+            grep -oE 'https?://[^"<> ]+\.(zip|mp3)' page.html | sort -u | head -40 || true
+            grep -oE 'href="[^"]*(audio|sound|download|zip)[^"]*"' page.html | sort -u | head -40 || true
+          done
