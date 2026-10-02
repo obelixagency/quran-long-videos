@@ -198,6 +198,32 @@
       "thumbnail": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-01T23:06:20+00:00",
+      "slot_key": "en-2-2026-10-01",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "30",
+      "reciter": "abdulbasit",
+      "minutes": 62.8,
+      "title": "Juz 30 (Juz 'Amma) Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:30550598",
+        "pexels:28112530",
+        "pexels:27457177",
+        "pexels:20600550",
+        "pexels:2776523",
+        "pexels:34754995",
+        "pexels:6580066",
+        "pexels:17302276"
+      ],
+      "video_id": "e3RzNUNl4ro",
+      "url": "https://youtu.be/e3RzNUNl4ro",
+      "thumbnail": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
