@@ -224,6 +224,32 @@
       "thumbnail": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-02T04:06:20+00:00",
+      "slot_key": "ar-1-2026-10-02",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "18",
+      "reciter": "minshawi",
+      "minutes": 36.1,
+      "title": "سورة الكهف كاملة يوم الجمعة | الشيخ محمد صديق المنشاوي | نور ما بين الجمعتين",
+      "backgrounds": [
+        "pexels:10979589",
+        "pexels:39299362",
+        "pexels:8865223",
+        "pexels:34162348",
+        "pexels:34964457",
+        "pexels:31957404",
+        "pexels:15059577",
+        "pexels:9661896"
+      ],
+      "video_id": "_TYsunPKzwo",
+      "url": "https://youtu.be/_TYsunPKzwo",
+      "thumbnail": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
