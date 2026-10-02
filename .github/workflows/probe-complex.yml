@@ -12,9 +12,10 @@ jobs:
     timeout-minutes: 10
     steps:
       - run: |
-          for p in quran-audio-hafs-ayyoub en/category/moratal; do
-            echo "== $p"
-            curl -sSL -m 60 -A "Mozilla/5.0" -o page.html -w "%{http_code} %{size_download}\n" "https://qurancomplex.gov.sa/$p/" || true
-            grep -oE 'https?://[^"<> ]+\.(zip|mp3)' page.html | sort -u | head -40 || true
-            grep -oE 'href="[^"]*(audio|sound|download|zip)[^"]*"' page.html | sort -u | head -40 || true
+          curl -sS -m 60 https://everyayah.com/data/recitations.js -o rec.js -w "recitations.js %{http_code}\n" || true
+          grep -ioE '"subfolder": *"[^"]*(ayy|hudh|huth|muhan|maher|muaiq|akhdar|jaber|qasim|budair)[^"]*"[^}]*' rec.js | head -40 || true
+          curl -sS -m 30 https://everyayah.com/data/ -o list.html || true
+          grep -ioE 'href="[^"]*(ayy|hudh|huth|muhan|maher|muaiq|akhdar|jaber|qasim|budair)[^"]*"' list.html | sort -u | head -40 || true
+          for f in Muhammad_Ayyoub_128kbps Hudhaify_128kbps MaherAlMuaiqly128kbps Khalid_Almuhanna_64kbps; do
+            curl -sS -m 30 -o /dev/null -w "$f %{http_code} %{size_download}\n" https://everyayah.com/data/$f/036001.mp3 || true
           done
