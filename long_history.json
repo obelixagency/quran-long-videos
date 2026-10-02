@@ -250,6 +250,32 @@
       "thumbnail": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-02T11:06:17+00:00",
+      "slot_key": "en-1-2026-10-02",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "18",
+      "reciter": "tablawi",
+      "minutes": 32.1,
+      "title": "Surah Al-Kahf – Friday Recitation | Full with English Translation | Al-Tablawi",
+      "backgrounds": [
+        "pexels:9806390",
+        "pexels:30623330",
+        "pexels:25621510",
+        "pexels:6128197",
+        "pexels:35573593",
+        "pexels:30152883",
+        "pexels:10979384",
+        "pexels:35742076"
+      ],
+      "video_id": "7wvPgpgPoY0",
+      "url": "https://youtu.be/7wvPgpgPoY0",
+      "thumbnail": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
