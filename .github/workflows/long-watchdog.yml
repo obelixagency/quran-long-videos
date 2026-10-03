@@ -1,0 +1,79 @@
+name: Long videos watchdog
+
+# Every slot of long-video.yml must end with a published video. Runs every hour (public repo = free).
+# Missing video → nothing running → start it again (once). Failed twice → open an issue.
+on:
+  schedule:
+    - cron: "50 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  issues: write
+  contents: read
+
+concurrency:
+  group: long-watchdog
+  cancel-in-progress: true
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          pip install -q requests
+          python3 - <<'PY'
+          import datetime as dt, json, os, requests
+          REPO = os.environ["GITHUB_REPOSITORY"]
+          API = f"https://api.github.com/repos/{REPO}"
+          H = {"Authorization": f"Bearer {os.environ['GH_TOKEN']}", "Accept": "application/vnd.github+json"}
+          SLOTS = [(4, 5, "ar", 1), (11, 5, "en", 1), (16, 5, "ar", 2), (23, 5, "en", 2)]  # = long-video.yml crons
+          now = dt.datetime.now(dt.timezone.utc)
+          hist = json.load(open("long_history.json"))["videos"] if os.path.exists("long_history.json") else []
+          keys = {v.get("slot_key") for v in hist if v.get("video_id")}
+          out = []
+          for h, m, ch, s in SLOTS:
+              slot = now.replace(hour=h, minute=m, second=0, microsecond=0)
+              if slot > now:
+                  slot -= dt.timedelta(days=1)
+              age = (now - slot).total_seconds() / 60
+              if not 40 <= age <= 300:  # 300 min = before the next slot starts
+                  continue
+              key = f"{ch}-{s}-{(slot - dt.timedelta(hours=4)).date()}"
+              if key in keys:
+                  out.append(f"✅ {key} published")
+                  continue
+              since = (slot - dt.timedelta(minutes=10)).strftime("%Y-%m-%dT%H:%M:%SZ")
+              runs = requests.get(f"{API}/actions/workflows/long-video.yml/runs", headers=H, timeout=30,
+                                  params={"created": ">=" + since, "per_page": 50}).json().get("workflow_runs", [])
+              if any(r["status"] in ("queued", "in_progress", "waiting", "pending") for r in runs):
+                  out.append(f"⏳ {key} rendering now")
+                  continue
+              def mins(r):
+                  a = dt.datetime.fromisoformat(r["run_started_at"].replace("Z", "+00:00"))
+                  b = dt.datetime.fromisoformat(r["updated_at"].replace("Z", "+00:00"))
+                  return (b - a).total_seconds() / 60
+              if any(r.get("conclusion") == "success" and mins(r) > 12 for r in runs):
+                  out.append(f"✅ {key} a full run succeeded (history may lag)")
+                  continue
+              failed = [r for r in runs if r.get("conclusion") in ("failure", "timed_out", "cancelled")]
+              if len(failed) >= 2:
+                  title = f"⚠️ Long video {key} failed twice"
+                  open_ = requests.get(f"{API}/issues", headers=H, timeout=30, params={"state": "open"}).json()
+                  if not any(i.get("title") == title for i in open_):
+                      requests.post(f"{API}/issues", headers=H, timeout=30,
+                                    json={"title": title, "body": "\n".join(r["html_url"] for r in failed)})
+                  out.append(f"❌ {key} failed twice – issue opened")
+                  continue
+              r = requests.post(f"{API}/actions/workflows/long-video.yml/dispatches", headers=H, timeout=30,
+                                json={"ref": "main", "inputs": {"channel": ch, "slot": str(s), "publish": "true"}})
+              out.append(f"🚀 {key} missing – started again ({r.status_code})")
+          text = "\n".join(out) or "no slot to check right now"
+          print(text)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
+              f.write(text + "\n")
+          PY
