@@ -355,6 +355,33 @@
       "playlist": "skipped (403)",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-03T11:06:27+00:00",
+      "slot_key": "en-1-2026-10-03",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "55",
+      "reciter": "hudhaify",
+      "minutes": 12.9,
+      "title": "Surah Ar-Rahman (The Beneficent) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:29338368",
+        "pexels:33565120",
+        "pexels:4130853",
+        "pexels:8150522",
+        "pexels:6772577",
+        "pexels:8025546",
+        "pexels:16518006",
+        "pexels:38520557"
+      ],
+      "video_id": "Sm7lYqGUODY",
+      "url": "https://youtu.be/Sm7lYqGUODY",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
