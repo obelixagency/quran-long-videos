@@ -409,6 +409,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-03T23:06:02+00:00",
+      "slot_key": "en-2-2026-10-03",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "29",
+      "reciter": "maher",
+      "minutes": 44.2,
+      "title": "Juz 29 (Juz Tabarak) Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:19078140",
+        "pexels:5004222",
+        "pexels:32175875",
+        "pexels:35587323",
+        "pexels:35257455",
+        "pexels:34620659",
+        "pexels:33911366",
+        "pexels:8865816"
+      ],
+      "video_id": "r_wudbp6kis",
+      "url": "https://youtu.be/r_wudbp6kis",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
