@@ -328,6 +328,33 @@
       "thumbnail": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-03T04:06:18+00:00",
+      "slot_key": "ar-1-2026-10-03",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "55",
+      "reciter": "maher",
+      "minutes": 7.8,
+      "title": "سورة الرحمن كاملة | الشيخ ماهر المعيقلي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:7245693",
+        "pexels:7157038",
+        "pexels:39597948",
+        "pexels:14415564",
+        "pexels:13141635",
+        "pexels:5019813",
+        "pexels:28954960",
+        "pexels:4739662"
+      ],
+      "video_id": "tI2sPA9SAec",
+      "url": "https://youtu.be/tI2sPA9SAec",
+      "thumbnail": "ok",
+      "playlist": "skipped (403)",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
