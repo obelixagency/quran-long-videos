@@ -382,6 +382,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-03T16:06:13+00:00",
+      "slot_key": "ar-2-2026-10-03",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "29",
+      "reciter": "hudhaify",
+      "minutes": 71.1,
+      "title": "الجزء التاسع والعشرون (جزء تبارك) كاملًا | الشيخ علي الحذيفي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:34635932",
+        "pexels:7592159",
+        "pexels:13126269",
+        "pexels:29167949",
+        "pexels:12944866",
+        "pexels:34413592",
+        "pexels:5304548",
+        "pexels:12634422"
+      ],
+      "video_id": "fOrKG45f7ro",
+      "url": "https://youtu.be/fOrKG45f7ro",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
