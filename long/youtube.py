@@ -38,7 +38,41 @@ def channel(h):
     return ch
 
 
-def upload(video, meta, thumbnail=None, privacy="public", category="22"):
+def _playlist_id(h, title):
+    """The channel's playlist with this title (created public if it doesn't exist yet)."""
+    page = ""
+    while True:
+        r = requests.get(f"{API}/playlists", headers=h, timeout=60,
+                         params={"part": "id,snippet", "mine": "true", "maxResults": 50, "pageToken": page})
+        if r.status_code >= 400:
+            raise RuntimeError(f"playlists {r.status_code} (token needs the 'youtube' scope)")
+        j = r.json()
+        for p in j.get("items", []):
+            if p["snippet"]["title"].strip() == title.strip():
+                return p["id"]
+        page = j.get("nextPageToken") or ""
+        if not page:
+            break
+    r = requests.post(f"{API}/playlists", params={"part": "snippet,status"}, headers=h, timeout=60,
+                      json={"snippet": {"title": title}, "status": {"privacyStatus": "public"}})
+    if r.status_code >= 400:
+        raise RuntimeError(f"create playlist {r.status_code}: {r.text[:200]}")
+    return r.json()["id"]
+
+
+def add_to_playlist(video_id, title, h=None):
+    h = h or {"Authorization": f"Bearer {_token()}"}
+    try:
+        pid = _playlist_id(h, title)
+        r = requests.post(f"{API}/playlistItems", params={"part": "snippet"}, headers=h, timeout=60,
+                          json={"snippet": {"playlistId": pid,
+                                            "resourceId": {"kind": "youtube#video", "videoId": video_id}}})
+        return "ok" if r.status_code < 300 else f"skipped ({r.status_code})"
+    except Exception as e:  # noqa: BLE001 – usually an old token with upload-only scope
+        return f"skipped ({e})"
+
+
+def upload(video, meta, thumbnail=None, privacy="public", category="22", playlist=None):
     h = {"Authorization": f"Bearer {_token()}"}
     ch = channel(h)
     size = Path(video).stat().st_size
@@ -81,5 +115,6 @@ def upload(video, meta, thumbnail=None, privacy="public", category="22"):
                               params={"videoId": vid["id"]}, data=img, timeout=120,
                               headers={**h, "Content-Type": "image/jpeg"})
         thumb = "ok" if t.status_code < 300 else f"skipped ({t.status_code}) – verify the channel by phone"
-    return {"video_id": vid["id"], "url": f"https://youtu.be/{vid['id']}", "thumbnail": thumb,
+    pl = add_to_playlist(vid["id"], playlist, h) if playlist else None
+    return {"video_id": vid["id"], "url": f"https://youtu.be/{vid['id']}", "thumbnail": thumb, "playlist": pl,
             "privacy": vid.get("status", {}).get("privacyStatus"), "channel": ch["snippet"]["title"]}

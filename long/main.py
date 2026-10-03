@@ -22,6 +22,12 @@ HISTORY = ROOT / "long_history.json"
 RECITERS = None  # None = every reciter with "enabled": true in data/reciters.json (copyright-free recordings only)
 BASMALA_EN = "In the name of Allah, the Beneficent, the Merciful."
 BRAND = {"ar": "سَكينة يومية", "en": "Daily Serenity"}
+PLAYLISTS = {  # one YouTube playlist per kind of long video
+    "ar": {"surah": "سور كاملة | تلاوات خاشعة", "juz": "القرآن الكريم جزءًا جزءًا", "sleep": "قرآن قبل النوم",
+           "duas": "أدعية من القرآن الكريم"},
+    "en": {"surah": "Full Surahs with English Translation", "juz": "The Quran Juz by Juz | English Translation",
+           "sleep": "Quran Before Sleep", "duas": "Duas from the Quran"},
+}
 
 
 class Ctx:
@@ -212,7 +218,7 @@ def main():
     if args.preview or not args.publish:
         return
     from .youtube import upload
-    res = upload(video, m, thumbnail=th)
+    res = upload(video, m, thumbnail=th, playlist=PLAYLISTS[channel].get(kind))
     print("📺", res)
     history["videos"].append({"date": now.isoformat(timespec="seconds"), "slot_key": key_slot, "channel": channel,
                               "slot": slot, "kind": kind, "key": str(key), "reciter": reciter["key"],
