@@ -1,0 +1,66 @@
+name: Playlists – add the older long videos (one time)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        channel: [ar, en]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests Pillow numpy
+      - name: Add every published long video to its playlist (skips ones already there)
+        env:
+          CH: ${{ matrix.channel }}
+          YT_CLIENT_ID: ${{ matrix.channel == 'en' && secrets.EN_YT_CLIENT_ID || secrets.AR_YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ matrix.channel == 'en' && secrets.EN_YT_CLIENT_SECRET || secrets.AR_YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ matrix.channel == 'en' && secrets.EN_YT_REFRESH_TOKEN || secrets.AR_YT_REFRESH_TOKEN }}
+          YT_CHANNEL_ID: ${{ matrix.channel == 'en' && secrets.EN_YT_CHANNEL_ID || secrets.AR_YT_CHANNEL_ID }}
+        run: |
+          python3 - <<'PY'
+          import json, os, requests
+          from long.youtube import API, _token, _playlist_id, channel
+          from long.main import PLAYLISTS
+          ch = os.environ["CH"]
+          h = {"Authorization": f"Bearer {_token()}"}
+          print("channel:", channel(h)["snippet"]["title"])
+          vids = [v for v in json.load(open("long_history.json"))["videos"]
+                  if v.get("channel") == ch and v.get("video_id") and v.get("kind") in PLAYLISTS[ch]]
+          done, added, failed = {}, 0, 0
+          for v in vids:
+              title = PLAYLISTS[ch][v["kind"]]
+              if title not in done:
+                  pid = _playlist_id(h, title)
+                  have, page = set(), ""
+                  while True:
+                      r = requests.get(f"{API}/playlistItems", headers=h, timeout=60, params={
+                          "part": "contentDetails", "playlistId": pid, "maxResults": 50, "pageToken": page}).json()
+                      have |= {i["contentDetails"]["videoId"] for i in r.get("items", [])}
+                      page = r.get("nextPageToken") or ""
+                      if not page:
+                          break
+                  done[title] = (pid, have)
+              pid, have = done[title]
+              if v["video_id"] in have:
+                  print("  already in", title, "-", v["title"][:60]); continue
+              r = requests.post(f"{API}/playlistItems", params={"part": "snippet"}, headers=h, timeout=60,
+                                json={"snippet": {"playlistId": pid,
+                                                  "resourceId": {"kind": "youtube#video", "videoId": v["video_id"]}}})
+              if r.status_code < 300:
+                  have.add(v["video_id"]); added += 1; print("✅", title, "←", v["title"][:60])
+              else:
+                  failed += 1; print("⚠️", r.status_code, v["video_id"], r.text[:150])
+          print(f"\n{ch}: added {added}, failed {failed}, playlists: {', '.join(done)}")
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
+              f.write(f"### {ch}: {added} added, {failed} failed\n" + "".join(f"- {t}\n" for t in done))
+          PY
