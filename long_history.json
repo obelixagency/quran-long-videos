@@ -490,6 +490,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-04T16:06:11+00:00",
+      "slot_key": "ar-2-2026-10-04",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "sleep",
+      "key": "sleep",
+      "reciter": "abdulbasit",
+      "minutes": 20.4,
+      "title": "قرآن قبل النوم | آية الكرسي وخواتيم البقرة والسجدة والملك والمعوذات | الشيخ عبد الباسط عبد الصمد",
+      "backgrounds": [
+        "pexels:38053110",
+        "pexels:34684726",
+        "pexels:35371501",
+        "pexels:5668625",
+        "pexels:28963293",
+        "pexels:38976184",
+        "pexels:39894293",
+        "pexels:7687610"
+      ],
+      "video_id": "sU959hgdFK0",
+      "url": "https://youtu.be/sU959hgdFK0",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
