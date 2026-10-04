@@ -436,6 +436,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-04T04:05:58+00:00",
+      "slot_key": "ar-1-2026-10-04",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "56",
+      "reciter": "husary",
+      "minutes": 17.5,
+      "title": "سورة الواقعة كاملة | الشيخ محمود خليل الحصري | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:18933974",
+        "pexels:36151769",
+        "pexels:35382227",
+        "pexels:3706326",
+        "pexels:19450621",
+        "pexels:38502453",
+        "pexels:35548242",
+        "pexels:38500911"
+      ],
+      "video_id": "_YlDHKBmeno",
+      "url": "https://youtu.be/_YlDHKBmeno",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
