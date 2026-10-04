@@ -463,6 +463,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-04T11:06:12+00:00",
+      "slot_key": "en-1-2026-10-04",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "56",
+      "reciter": "minshawi",
+      "minutes": 11.5,
+      "title": "Surah Al-Waqi'ah (The Inevitable) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:12742754",
+        "pexels:15070546",
+        "pexels:30770305",
+        "pexels:26621653",
+        "pexels:16508157",
+        "pexels:29527913",
+        "pexels:8050136",
+        "pexels:6617658"
+      ],
+      "video_id": "bFJlOpEsbjE",
+      "url": "https://youtu.be/bFJlOpEsbjE",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
