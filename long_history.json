@@ -598,6 +598,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-05T16:06:10+00:00",
+      "slot_key": "ar-2-2026-10-05",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "28",
+      "reciter": "minshawi",
+      "minutes": 57.7,
+      "title": "الجزء الثامن والعشرون (جزء قد سمع) كاملًا | الشيخ محمد صديق المنشاوي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:12717007",
+        "pexels:35232259",
+        "pexels:6841921",
+        "pexels:4231749",
+        "pexels:14949314",
+        "pexels:20597708",
+        "pexels:18312781",
+        "pexels:30346632"
+      ],
+      "video_id": "Uxk3MSSCY_w",
+      "url": "https://youtu.be/Uxk3MSSCY_w",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
