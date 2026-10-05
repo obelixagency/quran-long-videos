@@ -571,6 +571,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-05T11:06:17+00:00",
+      "slot_key": "en-1-2026-10-05",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "32",
+      "reciter": "abdulbasit",
+      "minutes": 7.8,
+      "title": "Surah As-Sajdah (The Prostration) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:34535419",
+        "pexels:17833704",
+        "pexels:5632851",
+        "pexels:36352166",
+        "pexels:25559415",
+        "pexels:11536955",
+        "pexels:33199721",
+        "pexels:32585519"
+      ],
+      "video_id": "VUqEtNuvm2Y",
+      "url": "https://youtu.be/VUqEtNuvm2Y",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
