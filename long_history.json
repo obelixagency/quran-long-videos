@@ -544,6 +544,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-05T04:06:22+00:00",
+      "slot_key": "ar-1-2026-10-05",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "32",
+      "reciter": "tablawi",
+      "minutes": 8.8,
+      "title": "سورة السجدة كاملة | الشيخ محمد الطبلاوي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:8744659",
+        "pexels:4318714",
+        "pexels:14755685",
+        "pexels:14949668",
+        "pexels:37595886",
+        "pexels:7437128",
+        "pexels:5652680",
+        "pexels:5592485"
+      ],
+      "video_id": "F-pm-6CabcE",
+      "url": "https://youtu.be/F-pm-6CabcE",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
