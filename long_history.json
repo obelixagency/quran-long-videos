@@ -625,6 +625,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-05T23:06:10+00:00",
+      "slot_key": "en-2-2026-10-05",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "28",
+      "reciter": "tablawi",
+      "minutes": 57.5,
+      "title": "Juz 28 (Juz Qad Sami'a) Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:37725541",
+        "pexels:20151722",
+        "pexels:31291127",
+        "pexels:19366764",
+        "pexels:35655927",
+        "pexels:39367821",
+        "pexels:11264043",
+        "pexels:5527622"
+      ],
+      "video_id": "UnTh0ZQ34lU",
+      "url": "https://youtu.be/UnTh0ZQ34lU",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
