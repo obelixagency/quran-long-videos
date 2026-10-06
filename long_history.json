@@ -652,6 +652,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-06T04:06:08+00:00",
+      "slot_key": "ar-1-2026-10-06",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "19",
+      "reciter": "ayyoub",
+      "minutes": 20.6,
+      "title": "سورة مريم كاملة | الشيخ محمد أيوب | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:32076641",
+        "pexels:6341893",
+        "pexels:39337104",
+        "pexels:39299360",
+        "pexels:34623325",
+        "pexels:27658737",
+        "pexels:5947448",
+        "pexels:5623807"
+      ],
+      "video_id": "AWujGR0KbPo",
+      "url": "https://youtu.be/AWujGR0KbPo",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
