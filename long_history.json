@@ -679,6 +679,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-06T11:06:31+00:00",
+      "slot_key": "en-1-2026-10-06",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "19",
+      "reciter": "ayyoub",
+      "minutes": 20.6,
+      "title": "Surah Maryam (Mary) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:5832128",
+        "pexels:9212195",
+        "pexels:16753320",
+        "pexels:5091091",
+        "pexels:5308783",
+        "pexels:30601494",
+        "pexels:5624051",
+        "pexels:25772371"
+      ],
+      "video_id": "Ykni28NouLg",
+      "url": "https://youtu.be/Ykni28NouLg",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
