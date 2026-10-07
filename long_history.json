@@ -760,6 +760,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-07T04:06:06+00:00",
+      "slot_key": "ar-1-2026-10-07",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "12",
+      "reciter": "hudhaify",
+      "minutes": 40.6,
+      "title": "سورة يوسف كاملة | الشيخ علي الحذيفي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:13963629",
+        "pexels:13968694",
+        "pexels:35356637",
+        "pexels:4685052",
+        "pexels:4525344",
+        "pexels:9540152",
+        "pexels:35612654",
+        "pexels:39299370"
+      ],
+      "video_id": "NlTA-guq5u8",
+      "url": "https://youtu.be/NlTA-guq5u8",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
