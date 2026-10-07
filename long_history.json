@@ -787,6 +787,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-07T11:06:12+00:00",
+      "slot_key": "en-1-2026-10-07",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "12",
+      "reciter": "maher",
+      "minutes": 31.8,
+      "title": "Surah Yusuf (Joseph) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:8310457",
+        "pexels:7151641",
+        "pexels:17833698",
+        "pexels:16905150",
+        "pexels:5884289",
+        "pexels:5632725",
+        "pexels:12854830",
+        "pexels:30872234"
+      ],
+      "video_id": "-9bsUkjUv7A",
+      "url": "https://youtu.be/-9bsUkjUv7A",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
