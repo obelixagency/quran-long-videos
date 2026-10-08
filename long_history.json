@@ -841,6 +841,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-08T04:06:06+00:00",
+      "slot_key": "ar-1-2026-10-08",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "48",
+      "reciter": "abdulbasit",
+      "minutes": 13.8,
+      "title": "سورة الفتح كاملة | الشيخ عبد الباسط عبد الصمد | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:11145856",
+        "pexels:6810005",
+        "pexels:13236825",
+        "pexels:4858774",
+        "pexels:9328701",
+        "pexels:11887609",
+        "pexels:39506681",
+        "pexels:28977235"
+      ],
+      "video_id": "QqM-4MyTpRg",
+      "url": "https://youtu.be/QqM-4MyTpRg",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
