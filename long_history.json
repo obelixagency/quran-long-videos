@@ -868,6 +868,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-08T11:05:57+00:00",
+      "slot_key": "en-1-2026-10-08",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "48",
+      "reciter": "minshawi",
+      "minutes": 12.4,
+      "title": "Surah Al-Fath (The Victory) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:28734878",
+        "pexels:16123352",
+        "pexels:19669271",
+        "pexels:38786970",
+        "pexels:15070549",
+        "pexels:30778285",
+        "pexels:19316040",
+        "pexels:37604237"
+      ],
+      "video_id": "zsC3QVTEnko",
+      "url": "https://youtu.be/zsC3QVTEnko",
+      "thumbnail": "ok",
+      "playlist": "skipped (playlists 401 (token needs the 'youtube' scope))",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
