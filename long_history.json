@@ -976,6 +976,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-09T11:06:04+00:00",
+      "slot_key": "en-1-2026-10-09",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "18",
+      "reciter": "abdulbasit",
+      "minutes": 40.0,
+      "title": "Surah Al-Kahf – Friday Recitation | Full with English Translation | Samad",
+      "backgrounds": [
+        "pexels:27919158",
+        "pexels:34310233",
+        "pexels:20737739",
+        "pexels:15414910",
+        "pexels:13754948",
+        "pexels:37947640",
+        "pexels:12644693",
+        "pexels:6024994"
+      ],
+      "video_id": "TuIJHT4w01E",
+      "url": "https://youtu.be/TuIJHT4w01E",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
