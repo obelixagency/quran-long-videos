@@ -1057,6 +1057,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-10T11:06:08+00:00",
+      "slot_key": "en-1-2026-10-10",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "59",
+      "reciter": "ayyoub",
+      "minutes": 11.9,
+      "title": "Surah Al-Hashr (The Exile) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:10796508",
+        "pexels:37669693",
+        "pexels:4060762",
+        "pexels:9010839",
+        "pexels:14983290",
+        "pexels:29143113",
+        "pexels:28112530",
+        "pexels:30550598"
+      ],
+      "video_id": "BrVwej78yzw",
+      "url": "https://youtu.be/BrVwej78yzw",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
