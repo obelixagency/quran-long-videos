@@ -1003,6 +1003,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-09T23:06:55+00:00",
+      "slot_key": "en-2-2026-10-09",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "27",
+      "reciter": "tablawi",
+      "minutes": 66.9,
+      "title": "Juz 27 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:12742745",
+        "pexels:39264188",
+        "pexels:32628145",
+        "pexels:20737728",
+        "pexels:19722029",
+        "pexels:40008379",
+        "pexels:34645011",
+        "pexels:5820450"
+      ],
+      "video_id": "ipkp2kGhHW0",
+      "url": "https://youtu.be/ipkp2kGhHW0",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
