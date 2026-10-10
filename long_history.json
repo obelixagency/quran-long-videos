@@ -1030,6 +1030,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-10T04:06:10+00:00",
+      "slot_key": "ar-1-2026-10-10",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "59",
+      "reciter": "ayyoub",
+      "minutes": 11.9,
+      "title": "سورة الحشر كاملة | الشيخ محمد أيوب | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:10234379",
+        "pexels:34754995",
+        "pexels:33698582",
+        "pexels:13293952",
+        "pexels:37787523",
+        "pexels:12657349",
+        "pexels:28891508",
+        "pexels:855617"
+      ],
+      "video_id": "JEN3L8B13SU",
+      "url": "https://youtu.be/JEN3L8B13SU",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
