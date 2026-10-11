@@ -1165,6 +1165,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-11T11:05:54+00:00",
+      "slot_key": "en-1-2026-10-11",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "50",
+      "reciter": "maher",
+      "minutes": 6.3,
+      "title": "Surah Qaf (The Letter \"Qaf\") Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:34470558",
+        "pexels:7437719",
+        "pexels:35296754",
+        "pexels:30791919",
+        "pexels:5406292",
+        "pexels:10979589",
+        "pexels:33395465",
+        "pexels:35025673"
+      ],
+      "video_id": "jAvPgKlH29s",
+      "url": "https://youtu.be/jAvPgKlH29s",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
