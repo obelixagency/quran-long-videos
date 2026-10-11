@@ -1192,6 +1192,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-11T16:05:58+00:00",
+      "slot_key": "ar-2-2026-10-11",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "1",
+      "reciter": "husary",
+      "minutes": 83.3,
+      "title": "الجزء الأول كاملًا | الشيخ محمود خليل الحصري | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:16681521",
+        "pexels:38307931",
+        "pexels:9758695",
+        "pexels:6748729",
+        "pexels:12858363",
+        "pexels:35573593",
+        "pexels:8317108",
+        "pexels:36657220"
+      ],
+      "video_id": "ca66nnVqA6Y",
+      "url": "https://youtu.be/ca66nnVqA6Y",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
