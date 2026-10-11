@@ -1138,6 +1138,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-11T04:05:58+00:00",
+      "slot_key": "ar-1-2026-10-11",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "50",
+      "reciter": "hudhaify",
+      "minutes": 8.9,
+      "title": "سورة ق كاملة | الشيخ علي الحذيفي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:39299362",
+        "pexels:33892510",
+        "pexels:2920545",
+        "pexels:40006966",
+        "pexels:11115722",
+        "pexels:17824025",
+        "pexels:19757243",
+        "pexels:7592874"
+      ],
+      "video_id": "VDfxTXm-GcA",
+      "url": "https://youtu.be/VDfxTXm-GcA",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
