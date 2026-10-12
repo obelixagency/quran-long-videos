@@ -1246,6 +1246,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-12T04:06:07+00:00",
+      "slot_key": "ar-1-2026-10-12",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "31",
+      "reciter": "abdulbasit",
+      "minutes": 10.7,
+      "title": "سورة لقمان كاملة | الشيخ عبد الباسط عبد الصمد | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:32175875",
+        "pexels:39000577",
+        "pexels:5722280",
+        "pexels:5652687",
+        "pexels:4057958",
+        "pexels:12944866",
+        "pexels:28891512",
+        "pexels:31115055"
+      ],
+      "video_id": "vHjKqJ9_6OI",
+      "url": "https://youtu.be/vHjKqJ9_6OI",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
