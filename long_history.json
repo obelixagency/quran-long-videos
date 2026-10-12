@@ -1219,6 +1219,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-11T23:06:15+00:00",
+      "slot_key": "en-2-2026-10-11",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "1",
+      "reciter": "minshawi",
+      "minutes": 58.5,
+      "title": "Juz 1 (Alif Lam Mim) Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:7592159",
+        "pexels:8033337",
+        "pexels:10286772",
+        "pexels:29143105",
+        "pexels:12657354",
+        "pexels:5317790",
+        "pexels:18762628",
+        "pexels:35101190"
+      ],
+      "video_id": "mRV7gG4R6gk",
+      "url": "https://youtu.be/mRV7gG4R6gk",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
