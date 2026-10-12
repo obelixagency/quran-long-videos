@@ -1300,6 +1300,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-12T16:06:04+00:00",
+      "slot_key": "ar-2-2026-10-12",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "sleep",
+      "key": "sleep",
+      "reciter": "tablawi",
+      "minutes": 21.3,
+      "title": "قرآن قبل النوم | آية الكرسي وخواتيم البقرة والسجدة والملك والمعوذات | الشيخ محمد الطبلاوي",
+      "backgrounds": [
+        "pexels:8050136",
+        "pexels:7074229",
+        "pexels:13126269",
+        "pexels:35548242",
+        "pexels:12796339",
+        "pexels:9734053",
+        "pexels:20143858",
+        "pexels:19450621"
+      ],
+      "video_id": "XnVOe-4aWU4",
+      "url": "https://youtu.be/XnVOe-4aWU4",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
