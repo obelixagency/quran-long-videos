@@ -1273,6 +1273,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-12T11:21:22+00:00",
+      "slot_key": "en-1-2026-10-12",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "31",
+      "reciter": "husary",
+      "minutes": 19.1,
+      "title": "Surah Luqman (Luqman) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:33911366",
+        "pexels:34162348",
+        "pexels:5596933",
+        "pexels:29266251",
+        "pexels:35257455",
+        "pexels:36197465",
+        "pexels:37595887",
+        "pexels:27671894"
+      ],
+      "video_id": "9j9jdCNf_JU",
+      "url": "https://youtu.be/9j9jdCNf_JU",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
