@@ -1381,6 +1381,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-13T11:06:01+00:00",
+      "slot_key": "en-1-2026-10-13",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "20",
+      "reciter": "tablawi",
+      "minutes": 27.8,
+      "title": "Surah Taha (Ta-Ha) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:7157038",
+        "pexels:5592485",
+        "pexels:28870601",
+        "pexels:37136612",
+        "pexels:31609259",
+        "pexels:19078140",
+        "pexels:34698830",
+        "pexels:30770305"
+      ],
+      "video_id": "d0-Y7AU9yTA",
+      "url": "https://youtu.be/d0-Y7AU9yTA",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
