@@ -1408,6 +1408,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-13T16:06:07+00:00",
+      "slot_key": "ar-2-2026-10-13",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "2",
+      "reciter": "ayyoub",
+      "minutes": 58.6,
+      "title": "الجزء الثاني كاملًا | الشيخ محمد أيوب | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:35282899",
+        "pexels:20665887",
+        "pexels:5019813",
+        "pexels:5304548",
+        "pexels:2776523",
+        "pexels:30623330",
+        "pexels:18933974",
+        "pexels:12014730"
+      ],
+      "video_id": "E6GgsR_5JdE",
+      "url": "https://youtu.be/E6GgsR_5JdE",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
