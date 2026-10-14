@@ -1462,6 +1462,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-14T04:05:57+00:00",
+      "slot_key": "ar-1-2026-10-14",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "25",
+      "reciter": "maher",
+      "minutes": 14.9,
+      "title": "سورة الفرقان كاملة | الشيخ ماهر المعيقلي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:13141635",
+        "pexels:17302276",
+        "pexels:6966408",
+        "pexels:34413592",
+        "pexels:38520557",
+        "pexels:37517592",
+        "pexels:30791936",
+        "pexels:8865227"
+      ],
+      "video_id": "dChr_gmUvkE",
+      "url": "https://youtu.be/dChr_gmUvkE",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
