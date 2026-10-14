@@ -1435,6 +1435,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-13T23:06:00+00:00",
+      "slot_key": "en-2-2026-10-13",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "2",
+      "reciter": "ayyoub",
+      "minutes": 58.6,
+      "title": "Juz 2 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:30767622",
+        "pexels:6617658",
+        "pexels:7608927",
+        "pexels:6569016",
+        "pexels:4779387",
+        "pexels:26621653",
+        "pexels:19202800",
+        "pexels:6285858"
+      ],
+      "video_id": "IE-Up0HmzwE",
+      "url": "https://youtu.be/IE-Up0HmzwE",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
