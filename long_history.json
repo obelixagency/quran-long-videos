@@ -1489,6 +1489,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-16T11:06:03+00:00",
+      "slot_key": "en-1-2026-10-16",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "18",
+      "reciter": "hudhaify",
+      "minutes": 32.6,
+      "title": "Surah Al-Kahf – Friday Recitation | Full with English Translation | Al-Hudhaify",
+      "backgrounds": [
+        "pexels:17584730",
+        "pexels:33284824",
+        "pexels:6841921",
+        "pexels:4231749",
+        "pexels:33851894",
+        "pexels:34620659",
+        "pexels:15070546",
+        "pexels:36231934"
+      ],
+      "video_id": "-y9WXWVpjKQ",
+      "url": "https://youtu.be/-y9WXWVpjKQ",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
