@@ -1570,6 +1570,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-17T04:05:49+00:00",
+      "slot_key": "ar-1-2026-10-17",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "17",
+      "reciter": "husary",
+      "minutes": 51.4,
+      "title": "سورة الإسراء كاملة | الشيخ محمود خليل الحصري | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:12657352",
+        "pexels:25559415",
+        "pexels:12634422",
+        "pexels:8025546",
+        "pexels:31291127",
+        "pexels:37060102",
+        "pexels:9970849",
+        "pexels:1918465"
+      ],
+      "video_id": "Fg6LGApOdXM",
+      "url": "https://youtu.be/Fg6LGApOdXM",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
