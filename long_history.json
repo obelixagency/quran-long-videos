@@ -1597,6 +1597,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-17T11:05:53+00:00",
+      "slot_key": "en-1-2026-10-17",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "25",
+      "reciter": "minshawi",
+      "minutes": 18.9,
+      "title": "Surah Al-Furqan (The Criterion) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:35309672",
+        "pexels:33549993",
+        "pexels:14949668",
+        "pexels:10397245",
+        "pexels:25621510",
+        "pexels:13893992",
+        "pexels:31957404",
+        "pexels:7610644"
+      ],
+      "video_id": "Q6f10w9n-6A",
+      "url": "https://youtu.be/Q6f10w9n-6A",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
