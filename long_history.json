@@ -1624,6 +1624,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-17T16:05:53+00:00",
+      "slot_key": "ar-2-2026-10-17",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "3",
+      "reciter": "abdulbasit",
+      "minutes": 63.5,
+      "title": "الجزء الثالث كاملًا | الشيخ عبد الباسط عبد الصمد | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:39367821",
+        "pexels:30449682",
+        "pexels:10522339",
+        "pexels:11518245",
+        "pexels:38510021",
+        "pexels:35612654",
+        "pexels:37309738",
+        "pexels:7245693"
+      ],
+      "video_id": "vmVFsPm-e70",
+      "url": "https://youtu.be/vmVFsPm-e70",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
