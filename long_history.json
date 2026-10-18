@@ -1678,6 +1678,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-18T00:59:21+00:00",
+      "slot_key": "en-2-2026-10-17",
+      "channel": "en",
+      "slot": 2,
+      "kind": "duas",
+      "key": "duas",
+      "reciter": "husary",
+      "minutes": 19.1,
+      "title": "Duas from the Quran | 44 Verses – Rabbana Duas with English Translation",
+      "backgrounds": [
+        "pexels:4922985",
+        "pexels:6341893",
+        "pexels:12742754",
+        "pexels:2570206",
+        "pexels:15059577",
+        "pexels:35382227",
+        "pexels:36151769",
+        "pexels:33374402"
+      ],
+      "video_id": "c7uFCJ44Riw",
+      "url": "https://youtu.be/c7uFCJ44Riw",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
