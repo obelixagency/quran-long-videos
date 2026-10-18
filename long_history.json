@@ -1732,6 +1732,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-18T11:06:01+00:00",
+      "slot_key": "en-1-2026-10-18",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "17",
+      "reciter": "abdulbasit",
+      "minutes": 38.3,
+      "title": "Surah Al-Isra (The Night Journey) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:37947641",
+        "pexels:36945114",
+        "pexels:5308819",
+        "pexels:33739036",
+        "pexels:20698334",
+        "pexels:15708467",
+        "pexels:4130853",
+        "pexels:32585519"
+      ],
+      "video_id": "nkgWc1-hrbY",
+      "url": "https://youtu.be/nkgWc1-hrbY",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
