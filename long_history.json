@@ -1705,6 +1705,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-18T04:06:00+00:00",
+      "slot_key": "ar-1-2026-10-18",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "21",
+      "reciter": "tablawi",
+      "minutes": 25.9,
+      "title": "سورة الأنبياء كاملة | الشيخ محمد الطبلاوي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:37239462",
+        "pexels:13961911",
+        "pexels:13350215",
+        "pexels:27048537",
+        "pexels:13236825",
+        "pexels:30872234",
+        "pexels:28916862",
+        "pexels:17833698"
+      ],
+      "video_id": "nSUNd70ga10",
+      "url": "https://youtu.be/nSUNd70ga10",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
