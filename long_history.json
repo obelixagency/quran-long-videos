@@ -1813,6 +1813,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-19T04:06:02+00:00",
+      "slot_key": "ar-1-2026-10-19",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "14",
+      "reciter": "ayyoub",
+      "minutes": 23.9,
+      "title": "سورة ابراهيم كاملة | الشيخ محمد أيوب | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:35232259",
+        "pexels:15414910",
+        "pexels:16905150",
+        "pexels:17833704",
+        "pexels:34505128",
+        "pexels:4922981",
+        "pexels:38786970",
+        "pexels:36998594"
+      ],
+      "video_id": "jcR48c5NajE",
+      "url": "https://youtu.be/jcR48c5NajE",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
