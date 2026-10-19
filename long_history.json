@@ -1867,6 +1867,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-19T16:06:06+00:00",
+      "slot_key": "ar-2-2026-10-19",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "4",
+      "reciter": "maher",
+      "minutes": 42.0,
+      "title": "الجزء الرابع كاملًا | الشيخ ماهر المعيقلي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:34824100",
+        "pexels:8150522",
+        "pexels:32076641",
+        "pexels:35574240",
+        "pexels:16123352",
+        "pexels:5832128",
+        "pexels:855617",
+        "pexels:35834780"
+      ],
+      "video_id": "D9-rW7C3rQU",
+      "url": "https://youtu.be/D9-rW7C3rQU",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
