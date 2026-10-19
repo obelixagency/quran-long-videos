@@ -1840,6 +1840,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-19T11:06:05+00:00",
+      "slot_key": "en-1-2026-10-19",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "21",
+      "reciter": "ayyoub",
+      "minutes": 33.4,
+      "title": "Surah Al-Anbya (The Prophets) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:27546116",
+        "pexels:39894660",
+        "pexels:8231311",
+        "pexels:34964457",
+        "pexels:38258815",
+        "pexels:4334864",
+        "pexels:33478953",
+        "pexels:7608893"
+      ],
+      "video_id": "zA01oP-6MMM",
+      "url": "https://youtu.be/zA01oP-6MMM",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
