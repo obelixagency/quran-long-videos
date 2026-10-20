@@ -1921,6 +1921,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-20T04:06:07+00:00",
+      "slot_key": "ar-1-2026-10-20",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "13",
+      "reciter": "hudhaify",
+      "minutes": 19.4,
+      "title": "سورة الرعد كاملة | الشيخ علي الحذيفي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:4318714",
+        "pexels:40008379",
+        "pexels:33053871",
+        "pexels:28734878",
+        "pexels:28112530",
+        "pexels:17808869",
+        "pexels:4739662",
+        "pexels:20151722"
+      ],
+      "video_id": "EFZqH3aMg2I",
+      "url": "https://youtu.be/EFZqH3aMg2I",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
