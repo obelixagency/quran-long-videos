@@ -1894,6 +1894,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-19T23:05:58+00:00",
+      "slot_key": "en-2-2026-10-19",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "4",
+      "reciter": "hudhaify",
+      "minutes": 58.2,
+      "title": "Juz 4 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:19316040",
+        "pexels:10234379",
+        "pexels:35356637",
+        "pexels:19366762",
+        "pexels:35274206",
+        "pexels:35331259",
+        "pexels:39337104",
+        "pexels:38207118"
+      ],
+      "video_id": "6coPW4LaFh4",
+      "url": "https://youtu.be/6coPW4LaFh4",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
