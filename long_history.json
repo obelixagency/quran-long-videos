@@ -1948,6 +1948,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-20T11:06:05+00:00",
+      "slot_key": "en-1-2026-10-20",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "14",
+      "reciter": "maher",
+      "minutes": 13.7,
+      "title": "Surah Ibrahim (Abraham) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:34754995",
+        "pexels:6815625",
+        "pexels:36466614",
+        "pexels:17831119",
+        "pexels:39264188",
+        "pexels:30778285",
+        "pexels:17833699",
+        "pexels:34162311"
+      ],
+      "video_id": "EP_Cp6nddYs",
+      "url": "https://youtu.be/EP_Cp6nddYs",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
