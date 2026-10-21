@@ -2029,6 +2029,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-21T04:06:11+00:00",
+      "slot_key": "ar-1-2026-10-21",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "57",
+      "reciter": "abdulbasit",
+      "minutes": 13.7,
+      "title": "سورة الحديد كاملة | الشيخ عبد الباسط عبد الصمد | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:6772577",
+        "pexels:9540152",
+        "pexels:10027098",
+        "pexels:10756361",
+        "pexels:38502453",
+        "pexels:10979384",
+        "pexels:31547407",
+        "pexels:16753320"
+      ],
+      "video_id": "ZiJsTDyMin8",
+      "url": "https://youtu.be/ZiJsTDyMin8",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
