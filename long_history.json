@@ -2056,6 +2056,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-21T11:06:02+00:00",
+      "slot_key": "en-1-2026-10-21",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "13",
+      "reciter": "husary",
+      "minutes": 27.5,
+      "title": "Surah Ar-Ra'd (The Thunder) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:4685052",
+        "pexels:19366764",
+        "pexels:19669271",
+        "pexels:35025673",
+        "pexels:30152883",
+        "pexels:33565120",
+        "pexels:4858774",
+        "pexels:33698582"
+      ],
+      "video_id": "7J0z6xtzHiI",
+      "url": "https://youtu.be/7J0z6xtzHiI",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
