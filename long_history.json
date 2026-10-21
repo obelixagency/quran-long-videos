@@ -2083,6 +2083,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-21T16:06:02+00:00",
+      "slot_key": "ar-2-2026-10-21",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "5",
+      "reciter": "tablawi",
+      "minutes": 61.6,
+      "title": "الجزء الخامس كاملًا | الشيخ محمد الطبلاوي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:37604237",
+        "pexels:6748729",
+        "pexels:36901709",
+        "pexels:5624051",
+        "pexels:18762628",
+        "pexels:35101190",
+        "pexels:11115722",
+        "pexels:7680846"
+      ],
+      "video_id": "k6eHaD6J8_0",
+      "url": "https://youtu.be/k6eHaD6J8_0",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
