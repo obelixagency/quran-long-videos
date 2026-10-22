@@ -2110,6 +2110,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-21T23:05:56+00:00",
+      "slot_key": "en-2-2026-10-21",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "5",
+      "reciter": "abdulbasit",
+      "minutes": 60.8,
+      "title": "Juz 5 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:5596933",
+        "pexels:6024994",
+        "pexels:4525344",
+        "pexels:33227529",
+        "pexels:40426052",
+        "pexels:27671894",
+        "pexels:10979589",
+        "pexels:12944866"
+      ],
+      "video_id": "vhEG2ypSznU",
+      "url": "https://youtu.be/vhEG2ypSznU",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
