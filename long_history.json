@@ -2137,6 +2137,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-22T04:06:06+00:00",
+      "slot_key": "ar-1-2026-10-22",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "23",
+      "reciter": "minshawi",
+      "minutes": 24.8,
+      "title": "سورة المؤمنون كاملة | الشيخ محمد صديق المنشاوي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:16681528",
+        "pexels:16681521",
+        "pexels:27658737",
+        "pexels:26627559",
+        "pexels:20698169",
+        "pexels:10797154",
+        "pexels:11533576",
+        "pexels:39894293"
+      ],
+      "video_id": "uut2TYI-e-8",
+      "url": "https://youtu.be/uut2TYI-e-8",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
