@@ -2191,6 +2191,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-22T16:07:47+00:00",
+      "slot_key": "ar-2-2026-10-22",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "duas",
+      "key": "duas",
+      "reciter": "ayyoub",
+      "minutes": 13.7,
+      "title": "أدعية من القرآن الكريم | من دعاء الأنبياء والمؤمنين | الشيخ محمد أيوب",
+      "backgrounds": [
+        "pexels:33892510",
+        "pexels:18312781",
+        "pexels:28963683",
+        "pexels:39143999",
+        "pexels:38976184",
+        "pexels:28760774",
+        "pexels:12742745",
+        "pexels:12644693"
+      ],
+      "video_id": "mD_u3ljcgq4",
+      "url": "https://youtu.be/mD_u3ljcgq4",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
