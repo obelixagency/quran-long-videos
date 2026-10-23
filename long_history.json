@@ -2299,6 +2299,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-23T16:25:06+00:00",
+      "slot_key": "ar-2-2026-10-23",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "6",
+      "reciter": "hudhaify",
+      "minutes": 58.8,
+      "title": "الجزء السادس كاملًا | الشيخ علي الحذيفي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:5019813",
+        "pexels:4060762",
+        "pexels:5820450",
+        "pexels:5652687",
+        "pexels:38670861",
+        "pexels:13883092",
+        "pexels:13754948",
+        "pexels:20143858"
+      ],
+      "video_id": "-TJCcB1mh-Y",
+      "url": "https://youtu.be/-TJCcB1mh-Y",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
