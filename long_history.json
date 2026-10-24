@@ -2380,6 +2380,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-24T11:06:01+00:00",
+      "slot_key": "en-1-2026-10-24",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "23",
+      "reciter": "minshawi",
+      "minutes": 24.8,
+      "title": "Surah Al-Mu'minun (The Believers) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:38367288",
+        "pexels:5004222",
+        "pexels:26621653",
+        "pexels:4779387",
+        "pexels:37136612",
+        "pexels:28219763",
+        "pexels:20597708",
+        "pexels:36657220"
+      ],
+      "video_id": "RfemGSJbxQA",
+      "url": "https://youtu.be/RfemGSJbxQA",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
