@@ -2326,6 +2326,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-23T23:30:49+00:00",
+      "slot_key": "en-2-2026-10-23",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "6",
+      "reciter": "maher",
+      "minutes": 42.4,
+      "title": "Juz 6 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:38520557",
+        "pexels:37517592",
+        "pexels:35257455",
+        "pexels:33851894",
+        "pexels:32918026",
+        "pexels:28100361",
+        "pexels:39299362",
+        "pexels:6966408"
+      ],
+      "video_id": "gSw5iC5vYwk",
+      "url": "https://youtu.be/gSw5iC5vYwk",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
