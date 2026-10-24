@@ -2353,6 +2353,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-24T04:05:56+00:00",
+      "slot_key": "ar-1-2026-10-24",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "24",
+      "reciter": "husary",
+      "minutes": 45.2,
+      "title": "سورة النور كاملة | الشيخ محمود خليل الحصري | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:34684726",
+        "pexels:29266251",
+        "pexels:37595886",
+        "pexels:16518006",
+        "pexels:33395465",
+        "pexels:28870601",
+        "pexels:6286978",
+        "pexels:40301732"
+      ],
+      "video_id": "QLBxBGLKCrE",
+      "url": "https://youtu.be/QLBxBGLKCrE",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
