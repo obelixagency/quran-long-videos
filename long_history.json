@@ -2488,6 +2488,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-25T11:05:53+00:00",
+      "slot_key": "en-1-2026-10-25",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "24",
+      "reciter": "abdulbasit",
+      "minutes": 28.3,
+      "title": "Surah An-Nur (The Light) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:9010839",
+        "pexels:5304547",
+        "pexels:13237112",
+        "pexels:39367821",
+        "pexels:31115055",
+        "pexels:28891503",
+        "pexels:29527913",
+        "pexels:12657352"
+      ],
+      "video_id": "TW-H5u4sUVk",
+      "url": "https://youtu.be/TW-H5u4sUVk",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
