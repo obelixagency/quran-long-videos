@@ -8,7 +8,7 @@ import os
 import time
 from pathlib import Path
 
-import requests
+from . import safe_http as requests
 
 TOKEN_URL = "https://oauth2.googleapis.com/token"
 API = "https://www.googleapis.com/youtube/v3"
@@ -22,7 +22,7 @@ def _token():
         "refresh_token": os.environ["YT_REFRESH_TOKEN"], "grant_type": "refresh_token"})
     j = r.json()
     if "access_token" not in j:
-        raise RuntimeError(f"YouTube token refresh failed: {j.get('error')} {j.get('error_description', '')}")
+        raise RuntimeError(f"YouTube token refresh failed (HTTP {r.status_code})")
     return j["access_token"]
 
 
@@ -34,7 +34,7 @@ def channel(h):
     ch = items[0]
     wanted = os.getenv("YT_CHANNEL_ID")
     if wanted and ch["id"] != wanted:
-        raise RuntimeError(f"Token belongs to channel {ch['snippet']['title']}, not the expected one")
+        raise RuntimeError("Token does not belong to the expected channel")
     return ch
 
 
@@ -56,7 +56,7 @@ def _playlist_id(h, title):
     r = requests.post(f"{API}/playlists", params={"part": "snippet,status"}, headers=h, timeout=60,
                       json={"snippet": {"title": title}, "status": {"privacyStatus": "public"}})
     if r.status_code >= 400:
-        raise RuntimeError(f"create playlist {r.status_code}: {r.text[:200]}")
+        raise RuntimeError(f"create playlist {r.status_code}")
     return r.json()["id"]
 
 
@@ -69,7 +69,7 @@ def add_to_playlist(video_id, title, h=None):
                                             "resourceId": {"kind": "youtube#video", "videoId": video_id}}})
         return "ok" if r.status_code < 300 else f"skipped ({r.status_code})"
     except Exception as e:  # noqa: BLE001 – usually an old token with upload-only scope
-        return f"skipped ({e})"
+        return "skipped (playlist request failed; details withheld)"
 
 
 def upload(video, meta, thumbnail=None, privacy="public", category="22", playlist=None):
@@ -82,7 +82,7 @@ def upload(video, meta, thumbnail=None, privacy="public", category="22", playlis
     init = requests.post(UPLOAD, params={"uploadType": "resumable", "part": "snippet,status"}, json=body, timeout=60,
                          headers={**h, "X-Upload-Content-Type": "video/mp4", "X-Upload-Content-Length": str(size)})
     if init.status_code >= 400 or "Location" not in init.headers:
-        raise RuntimeError(f"YouTube upload init failed {init.status_code}: {init.text[:400]}")
+        raise RuntimeError(f"YouTube upload init failed {init.status_code}")
     url, pos, vid = init.headers["Location"], 0, None
     with open(video, "rb") as f:
         while pos < size:
@@ -95,7 +95,7 @@ def upload(video, meta, thumbnail=None, privacy="public", category="22", playlis
                         **h, "Content-Length": str(len(chunk)), "Content-Range": f"bytes {pos}-{end}/{size}"})
                     break
                 except requests.RequestException as e:
-                    print(f"  upload chunk retry {attempt + 1}: {e}")
+                    print(f"  upload chunk retry {attempt + 1}: transport failed")
                     time.sleep(10 * (attempt + 1))
             else:
                 raise RuntimeError("YouTube upload failed after retries")
@@ -107,7 +107,7 @@ def upload(video, meta, thumbnail=None, privacy="public", category="22", playlis
                 pos = int(rng.split("-")[1]) + 1 if rng else 0
                 print(f"   uploaded {pos / size:.0%}", flush=True)
             else:
-                raise RuntimeError(f"YouTube upload failed {r.status_code}: {r.text[:400]}")
+                raise RuntimeError(f"YouTube upload failed {r.status_code}")
     thumb = None
     if thumbnail and Path(thumbnail).exists():
         with open(thumbnail, "rb") as img:
@@ -118,3 +118,4 @@ def upload(video, meta, thumbnail=None, privacy="public", category="22", playlis
     pl = add_to_playlist(vid["id"], playlist, h) if playlist else None
     return {"video_id": vid["id"], "url": f"https://youtu.be/{vid['id']}", "thumbnail": thumb, "playlist": pl,
             "privacy": vid.get("status", {}).get("privacyStatus"), "channel": ch["snippet"]["title"]}
+
