@@ -2461,6 +2461,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-25T04:05:57+00:00",
+      "slot_key": "ar-1-2026-10-25",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "44",
+      "reciter": "tablawi",
+      "minutes": 9.9,
+      "title": "سورة الدخان كاملة | الشيخ محمد الطبلاوي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:29568705",
+        "pexels:29167949",
+        "pexels:11518245",
+        "pexels:6285858",
+        "pexels:13141635",
+        "pexels:8025546",
+        "pexels:7592159",
+        "pexels:20665887"
+      ],
+      "video_id": "fZ1uoSpBYic",
+      "url": "https://youtu.be/fZ1uoSpBYic",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
