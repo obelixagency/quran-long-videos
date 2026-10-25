@@ -28,7 +28,8 @@ jobs:
           YT_CHANNEL_ID: ${{ matrix.channel == 'en' && secrets.EN_YT_CHANNEL_ID || secrets.AR_YT_CHANNEL_ID }}
         run: |
           python3 - <<'PY'
-          import json, os, requests
+          import json, os
+          from long import safe_http as requests
           from long.youtube import API, _token, _playlist_id, channel
           from long.main import PLAYLISTS
           ch = os.environ["CH"]
@@ -59,8 +60,9 @@ jobs:
               if r.status_code < 300:
                   have.add(v["video_id"]); added += 1; print("✅", title, "←", v["title"][:60])
               else:
-                  failed += 1; print("⚠️", r.status_code, v["video_id"], r.text[:150])
+                  failed += 1; print("⚠️", r.status_code, v["video_id"])
           print(f"\n{ch}: added {added}, failed {failed}, playlists: {', '.join(done)}")
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
               f.write(f"### {ch}: {added} added, {failed} failed\n" + "".join(f"- {t}\n" for t in done))
           PY
+

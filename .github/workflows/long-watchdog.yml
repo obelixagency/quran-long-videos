@@ -27,7 +27,8 @@ jobs:
         run: |
           pip install -q requests
           python3 - <<'PY'
-          import datetime as dt, json, os, requests
+          import datetime as dt, json, os
+          from long import safe_http as requests
           REPO = os.environ["GITHUB_REPOSITORY"]
           API = f"https://api.github.com/repos/{REPO}"
           H = {"Authorization": f"Bearer {os.environ['GH_TOKEN']}", "Accept": "application/vnd.github+json"}
@@ -77,3 +78,4 @@ jobs:
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
               f.write(text + "\n")
           PY
+
