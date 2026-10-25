@@ -2515,6 +2515,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-25T16:05:59+00:00",
+      "slot_key": "ar-2-2026-10-25",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "7",
+      "reciter": "minshawi",
+      "minutes": 62.2,
+      "title": "الجزء السابع كاملًا | الشيخ محمد صديق المنشاوي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:36352166",
+        "pexels:5632725",
+        "pexels:2570206",
+        "pexels:37595887",
+        "pexels:20737739",
+        "pexels:8110359",
+        "pexels:14949314",
+        "pexels:8379440"
+      ],
+      "video_id": "wbXX8nVCveM",
+      "url": "https://youtu.be/wbXX8nVCveM",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
