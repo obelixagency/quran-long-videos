@@ -2542,6 +2542,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-25T23:06:08+00:00",
+      "slot_key": "en-2-2026-10-25",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "7",
+      "reciter": "tablawi",
+      "minutes": 71.1,
+      "title": "Juz 7 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:25621510",
+        "pexels:35573592",
+        "pexels:35574245",
+        "pexels:16681525",
+        "pexels:12657354",
+        "pexels:33872539",
+        "pexels:28759832",
+        "pexels:13293952"
+      ],
+      "video_id": "h3OyiVeml6I",
+      "url": "https://youtu.be/h3OyiVeml6I",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
