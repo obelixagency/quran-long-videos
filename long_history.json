@@ -2650,6 +2650,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-26T23:30:13+00:00",
+      "slot_key": "en-2-2026-10-26",
+      "channel": "en",
+      "slot": 2,
+      "kind": "duas",
+      "key": "duas",
+      "reciter": "hudhaify",
+      "minutes": 12.4,
+      "title": "Duas from the Quran | 44 Verses – Rabbana Duas with English Translation",
+      "backgrounds": [
+        "pexels:12014730",
+        "pexels:33374402",
+        "pexels:5536558",
+        "pexels:2888384",
+        "pexels:5751455",
+        "pexels:5716686",
+        "pexels:28865204",
+        "pexels:30449682"
+      ],
+      "video_id": "WOdFbMXhsvA",
+      "url": "https://youtu.be/WOdFbMXhsvA",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
