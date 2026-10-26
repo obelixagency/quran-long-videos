@@ -2596,6 +2596,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-26T11:06:10+00:00",
+      "slot_key": "en-1-2026-10-26",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "44",
+      "reciter": "ayyoub",
+      "minutes": 10.4,
+      "title": "Surah Ad-Dukhan (The Smoke) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:30623330",
+        "pexels:1918465",
+        "pexels:20737732",
+        "pexels:32175875",
+        "pexels:15708467",
+        "pexels:34623325",
+        "pexels:5308819",
+        "pexels:5317790"
+      ],
+      "video_id": "FLzzrLrOWxU",
+      "url": "https://youtu.be/FLzzrLrOWxU",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
