@@ -2677,6 +2677,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-27T04:06:19+00:00",
+      "slot_key": "ar-1-2026-10-27",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "76",
+      "reciter": "hudhaify",
+      "minutes": 6.2,
+      "title": "سورة الانسان كاملة | الشيخ علي الحذيفي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:27457177",
+        "pexels:34310233",
+        "pexels:4334864",
+        "pexels:38258815",
+        "pexels:9328701",
+        "pexels:35587323",
+        "pexels:10397245",
+        "pexels:35382227"
+      ],
+      "video_id": "EINbQTZ6mcw",
+      "url": "https://youtu.be/EINbQTZ6mcw",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
