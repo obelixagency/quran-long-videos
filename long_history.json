@@ -2758,6 +2758,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-27T23:06:01+00:00",
+      "slot_key": "en-2-2026-10-27",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "8",
+      "reciter": "minshawi",
+      "minutes": 58.1,
+      "title": "Juz 8 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:15070549",
+        "pexels:35274206",
+        "pexels:24801706",
+        "pexels:40529731",
+        "pexels:25772371",
+        "pexels:8150522",
+        "pexels:29338368",
+        "pexels:35274206"
+      ],
+      "video_id": "B6C_zjQEfbA",
+      "url": "https://youtu.be/B6C_zjQEfbA",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
