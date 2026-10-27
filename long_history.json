@@ -2731,6 +2731,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-27T16:06:02+00:00",
+      "slot_key": "ar-2-2026-10-27",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "8",
+      "reciter": "husary",
+      "minutes": 89.1,
+      "title": "الجزء الثامن كاملًا | الشيخ محمود خليل الحصري | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:15098017",
+        "pexels:35655927",
+        "pexels:16905150",
+        "pexels:8865227",
+        "pexels:29143113",
+        "pexels:38053110",
+        "pexels:34620659",
+        "pexels:9970849"
+      ],
+      "video_id": "RBTk3WVM5CU",
+      "url": "https://youtu.be/RBTk3WVM5CU",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
