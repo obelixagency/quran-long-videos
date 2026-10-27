@@ -2704,6 +2704,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-27T11:32:40+00:00",
+      "slot_key": "en-1-2026-10-27",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "49",
+      "reciter": "maher",
+      "minutes": 5.9,
+      "title": "Surah Al-Hujurat (The Rooms) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:7388473",
+        "pexels:19202800",
+        "pexels:34964457",
+        "pexels:31957404",
+        "pexels:5884289",
+        "pexels:11264043",
+        "pexels:35309672",
+        "pexels:35296754"
+      ],
+      "video_id": "EQ5cC6K8O1Q",
+      "url": "https://youtu.be/EQ5cC6K8O1Q",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
