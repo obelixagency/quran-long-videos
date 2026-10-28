@@ -2785,6 +2785,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-28T04:05:56+00:00",
+      "slot_key": "ar-1-2026-10-28",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "73",
+      "reciter": "abdulbasit",
+      "minutes": 5.2,
+      "title": "سورة المزمل كاملة | الشيخ عبد الباسط عبد الصمد | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:28112530",
+        "pexels:17808869",
+        "pexels:35574240",
+        "pexels:32076641",
+        "pexels:35232259",
+        "pexels:34698830",
+        "pexels:39337104",
+        "pexels:36466614"
+      ],
+      "video_id": "wE-Z70rnQNk",
+      "url": "https://youtu.be/wE-Z70rnQNk",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
