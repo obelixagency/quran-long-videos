@@ -2812,6 +2812,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-28T11:05:56+00:00",
+      "slot_key": "en-1-2026-10-28",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "76",
+      "reciter": "husary",
+      "minutes": 9.0,
+      "title": "Surah Al-Insan (The Man) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:9592604",
+        "pexels:39894660",
+        "pexels:33053871",
+        "pexels:40393750",
+        "pexels:28427109",
+        "pexels:17833704",
+        "pexels:16923263",
+        "pexels:30550598"
+      ],
+      "video_id": "Pm83gWLSGi4",
+      "url": "https://youtu.be/Pm83gWLSGi4",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
