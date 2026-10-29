@@ -2893,6 +2893,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-29T04:06:09+00:00",
+      "slot_key": "ar-1-2026-10-29",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "78",
+      "reciter": "minshawi",
+      "minutes": 5.7,
+      "title": "سورة النبإ كاملة | الشيخ محمد صديق المنشاوي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:34636481",
+        "pexels:5652680",
+        "pexels:19757243",
+        "pexels:36111065",
+        "pexels:10756361",
+        "pexels:27919158",
+        "pexels:40008379",
+        "pexels:4130853"
+      ],
+      "video_id": "4-RLTe5Tqyc",
+      "url": "https://youtu.be/4-RLTe5Tqyc",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
