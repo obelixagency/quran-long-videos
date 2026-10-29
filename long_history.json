@@ -2947,6 +2947,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-29T16:05:55+00:00",
+      "slot_key": "ar-2-2026-10-29",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "9",
+      "reciter": "ayyoub",
+      "minutes": 69.5,
+      "title": "الجزء التاسع كاملًا | الشيخ محمد أيوب | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:34905760",
+        "pexels:28891512",
+        "pexels:5624051",
+        "pexels:39083598",
+        "pexels:32628145",
+        "pexels:19366764",
+        "pexels:11598545",
+        "pexels:37239462"
+      ],
+      "video_id": "updaDLJB6zg",
+      "url": "https://youtu.be/updaDLJB6zg",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
