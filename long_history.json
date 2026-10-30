@@ -2974,6 +2974,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-29T23:06:00+00:00",
+      "slot_key": "en-2-2026-10-29",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "9",
+      "reciter": "ayyoub",
+      "minutes": 69.5,
+      "title": "Juz 9 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:12657350",
+        "pexels:40454293",
+        "pexels:13874228",
+        "pexels:11145856",
+        "pexels:5722280",
+        "pexels:7245693",
+        "pexels:35331259",
+        "pexels:20698169"
+      ],
+      "video_id": "YZlX0hS4SQc",
+      "url": "https://youtu.be/YZlX0hS4SQc",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
