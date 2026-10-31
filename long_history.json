@@ -3136,6 +3136,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-31T11:05:53+00:00",
+      "slot_key": "en-1-2026-10-31",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "78",
+      "reciter": "minshawi",
+      "minutes": 5.7,
+      "title": "Surah An-Naba (The Tidings) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:17435187",
+        "pexels:36151769",
+        "pexels:13004471",
+        "pexels:34413592",
+        "pexels:7074229",
+        "pexels:5061362",
+        "pexels:13963629",
+        "pexels:38307931"
+      ],
+      "video_id": "rbnovC_X8GQ",
+      "url": "https://youtu.be/rbnovC_X8GQ",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
