@@ -3163,6 +3163,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-10-31T16:05:59+00:00",
+      "slot_key": "ar-2-2026-10-31",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "10",
+      "reciter": "abdulbasit",
+      "minutes": 54.2,
+      "title": "الجزء العاشر كاملًا | الشيخ عبد الباسط عبد الصمد | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:5019813",
+        "pexels:7680846",
+        "pexels:6901758",
+        "pexels:9212195",
+        "pexels:30770305",
+        "pexels:4685052",
+        "pexels:14755685",
+        "pexels:9661896"
+      ],
+      "video_id": "_G3NcaTKC1s",
+      "url": "https://youtu.be/_G3NcaTKC1s",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
