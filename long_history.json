@@ -3217,6 +3217,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-01T04:05:50+00:00",
+      "slot_key": "ar-1-2026-11-01",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "11",
+      "reciter": "tablawi",
+      "minutes": 45.0,
+      "title": "سورة هود كاملة | الشيخ محمد الطبلاوي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:6772577",
+        "pexels:9540152",
+        "pexels:19669269",
+        "pexels:38670861",
+        "pexels:4779387",
+        "pexels:28798458",
+        "pexels:11449150",
+        "pexels:10979384"
+      ],
+      "video_id": "ZeQaNBF7Mtk",
+      "url": "https://youtu.be/ZeQaNBF7Mtk",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
