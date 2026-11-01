@@ -3244,6 +3244,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-01T11:05:56+00:00",
+      "slot_key": "en-1-2026-11-01",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "10",
+      "reciter": "abdulbasit",
+      "minutes": 40.8,
+      "title": "Surah Yunus (Jonah) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:26621653",
+        "pexels:31574277",
+        "pexels:10027098",
+        "pexels:7608893",
+        "pexels:5308783",
+        "pexels:12657349",
+        "pexels:8317108",
+        "pexels:20597708"
+      ],
+      "video_id": "8D_-dyspW-I",
+      "url": "https://youtu.be/8D_-dyspW-I",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
