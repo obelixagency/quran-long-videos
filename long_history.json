@@ -3190,6 +3190,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-10-31T23:09:34+00:00",
+      "slot_key": "en-2-2026-10-31",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "10",
+      "reciter": "husary",
+      "minutes": 85.3,
+      "title": "Juz 10 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:36945114",
+        "pexels:38502453",
+        "pexels:11115722",
+        "pexels:33698582",
+        "pexels:4318714",
+        "pexels:13126269",
+        "pexels:13883092",
+        "pexels:33395465"
+      ],
+      "video_id": "yGYGzFhLydY",
+      "url": "https://youtu.be/yGYGzFhLydY",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
