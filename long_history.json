@@ -3325,6 +3325,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-02T04:06:09+00:00",
+      "slot_key": "ar-1-2026-11-02",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "15",
+      "reciter": "ayyoub",
+      "minutes": 21.1,
+      "title": "سورة الحجر كاملة | الشيخ محمد أيوب | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:13141635",
+        "pexels:4525344",
+        "pexels:16681526",
+        "pexels:29527913",
+        "pexels:19450621",
+        "pexels:31115055",
+        "pexels:8310457",
+        "pexels:11518245"
+      ],
+      "video_id": "ETVArnqGF-Q",
+      "url": "https://youtu.be/ETVArnqGF-Q",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
