@@ -3433,6 +3433,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-03T04:06:04+00:00",
+      "slot_key": "ar-1-2026-11-03",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "16",
+      "reciter": "hudhaify",
+      "minutes": 41.0,
+      "title": "سورة النحل كاملة | الشيخ علي الحذيفي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:30767622",
+        "pexels:5632851",
+        "pexels:38976184",
+        "pexels:28760774",
+        "pexels:32918026",
+        "pexels:28759832",
+        "pexels:35573593",
+        "pexels:35574238"
+      ],
+      "video_id": "nrFOrbS5mZ0",
+      "url": "https://youtu.be/nrFOrbS5mZ0",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
