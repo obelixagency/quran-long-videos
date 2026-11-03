@@ -3406,6 +3406,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-02T23:06:46+00:00",
+      "slot_key": "en-2-2026-11-02",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "11",
+      "reciter": "hudhaify",
+      "minutes": 60.4,
+      "title": "Juz 11 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:6966408",
+        "pexels:27048537",
+        "pexels:28219763",
+        "pexels:35025673",
+        "pexels:30778285",
+        "pexels:2570206",
+        "pexels:16681525",
+        "pexels:12657354"
+      ],
+      "video_id": "ZAp-NofrIwg",
+      "url": "https://youtu.be/ZAp-NofrIwg",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
