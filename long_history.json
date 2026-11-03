@@ -3487,6 +3487,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-03T16:06:02+00:00",
+      "slot_key": "ar-2-2026-11-03",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "duas",
+      "key": "duas",
+      "reciter": "husary",
+      "minutes": 19.1,
+      "title": "أدعية من القرآن الكريم | من دعاء الأنبياء والمؤمنين | الشيخ محمود خليل الحصري",
+      "backgrounds": [
+        "pexels:17833698",
+        "pexels:30791936",
+        "pexels:7437128",
+        "pexels:38520557",
+        "pexels:5716686",
+        "pexels:35982735",
+        "pexels:25621510",
+        "pexels:11533576"
+      ],
+      "video_id": "JVuXBzcvfmE",
+      "url": "https://youtu.be/JVuXBzcvfmE",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
