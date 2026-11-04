@@ -3568,6 +3568,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-04T11:06:02+00:00",
+      "slot_key": "en-1-2026-11-04",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "16",
+      "reciter": "husary",
+      "minutes": 59.5,
+      "title": "Surah An-Nahl (The Bee) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:30601494",
+        "pexels:28782169",
+        "pexels:34535419",
+        "pexels:15226109",
+        "pexels:6815625",
+        "pexels:39879538",
+        "pexels:35655927",
+        "pexels:8110359"
+      ],
+      "video_id": "Y5cvNoIo9ts",
+      "url": "https://youtu.be/Y5cvNoIo9ts",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
