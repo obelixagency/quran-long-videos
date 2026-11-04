@@ -3541,6 +3541,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-04T04:05:55+00:00",
+      "slot_key": "ar-1-2026-11-04",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "22",
+      "reciter": "abdulbasit",
+      "minutes": 32.0,
+      "title": "سورة الحج كاملة | الشيخ عبد الباسط عبد الصمد | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:39143999",
+        "pexels:28638599",
+        "pexels:37595886",
+        "pexels:16518006",
+        "pexels:6580066",
+        "pexels:5304547",
+        "pexels:19316040",
+        "pexels:30623330"
+      ],
+      "video_id": "43JhWBWVShI",
+      "url": "https://youtu.be/43JhWBWVShI",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
