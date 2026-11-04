@@ -3595,6 +3595,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-04T16:06:38+00:00",
+      "slot_key": "ar-2-2026-11-04",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "12",
+      "reciter": "tablawi",
+      "minutes": 63.6,
+      "title": "الجزء الثاني عشر كاملًا | الشيخ محمد الطبلاوي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:26627559",
+        "pexels:34310233",
+        "pexels:30346632",
+        "pexels:12944866",
+        "pexels:8025546",
+        "pexels:12634422",
+        "pexels:40529731",
+        "pexels:24801706"
+      ],
+      "video_id": "M_yakD7Rbbw",
+      "url": "https://youtu.be/M_yakD7Rbbw",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
