@@ -3622,6 +3622,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-04T23:06:03+00:00",
+      "slot_key": "en-2-2026-11-04",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "12",
+      "reciter": "abdulbasit",
+      "minutes": 59.1,
+      "title": "Juz 12 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:20698334",
+        "pexels:2344549",
+        "pexels:15070546",
+        "pexels:35274206",
+        "pexels:40576307",
+        "pexels:5884289",
+        "pexels:37947641",
+        "pexels:13754948"
+      ],
+      "video_id": "nptIxn8t3Cs",
+      "url": "https://youtu.be/nptIxn8t3Cs",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
