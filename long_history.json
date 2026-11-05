@@ -3649,6 +3649,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-05T04:05:51+00:00",
+      "slot_key": "ar-1-2026-11-05",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "26",
+      "reciter": "minshawi",
+      "minutes": 29.3,
+      "title": "سورة الشعراء كاملة | الشيخ محمد صديق المنشاوي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:12742754",
+        "pexels:37517592",
+        "pexels:28112530",
+        "pexels:30550598",
+        "pexels:39506681",
+        "pexels:33565120",
+        "pexels:27546116",
+        "pexels:8379440"
+      ],
+      "video_id": "PEYEyEe6vP8",
+      "url": "https://youtu.be/PEYEyEe6vP8",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
