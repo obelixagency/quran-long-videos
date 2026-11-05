@@ -3703,6 +3703,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-05T19:04:07+00:00",
+      "slot_key": "ar-2-2026-11-05",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "sleep",
+      "key": "sleep",
+      "reciter": "ayyoub",
+      "minutes": 23.7,
+      "title": "قرآن قبل النوم | آية الكرسي وخواتيم البقرة والسجدة والملك والمعوذات | الشيخ محمد أيوب",
+      "backgrounds": [
+        "pexels:36945132",
+        "pexels:32076641",
+        "pexels:9758695",
+        "pexels:9806390",
+        "pexels:16923263",
+        "pexels:17808869",
+        "pexels:25559415",
+        "pexels:16508157"
+      ],
+      "video_id": "SodyvTplAZI",
+      "url": "https://youtu.be/SodyvTplAZI",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
