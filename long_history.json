@@ -3811,6 +3811,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-06T16:05:52+00:00",
+      "slot_key": "ar-2-2026-11-06",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "13",
+      "reciter": "hudhaify",
+      "minutes": 58.6,
+      "title": "الجزء الثالث عشر كاملًا | الشيخ علي الحذيفي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:5581560",
+        "pexels:34505200",
+        "pexels:29143113",
+        "pexels:40706568",
+        "pexels:29338368",
+        "pexels:39238145",
+        "pexels:31957404",
+        "pexels:10234379"
+      ],
+      "video_id": "j3wt6UV5CtY",
+      "url": "https://youtu.be/j3wt6UV5CtY",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
