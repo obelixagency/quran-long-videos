@@ -3838,6 +3838,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-06T23:05:51+00:00",
+      "slot_key": "en-2-2026-11-06",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "13",
+      "reciter": "maher",
+      "minutes": 45.1,
+      "title": "Juz 13 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:34645011",
+        "pexels:5820450",
+        "pexels:12657350",
+        "pexels:40454293",
+        "pexels:33478953",
+        "pexels:10756361",
+        "pexels:35587323",
+        "pexels:11887609"
+      ],
+      "video_id": "xXToauN3sG4",
+      "url": "https://youtu.be/xXToauN3sG4",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
