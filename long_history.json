@@ -3919,6 +3919,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-07T16:05:57+00:00",
+      "slot_key": "ar-2-2026-11-07",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "duas",
+      "key": "duas",
+      "reciter": "abdulbasit",
+      "minutes": 14.4,
+      "title": "أدعية من القرآن الكريم | من دعاء الأنبياء والمؤمنين | الشيخ عبد الباسط عبد الصمد",
+      "backgrounds": [
+        "pexels:17302276",
+        "pexels:17824025",
+        "pexels:20737728",
+        "pexels:35356637",
+        "pexels:19202800",
+        "pexels:10522339",
+        "pexels:35045294",
+        "pexels:36510380"
+      ],
+      "video_id": "4swS_c8LjdA",
+      "url": "https://youtu.be/4swS_c8LjdA",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
