@@ -3892,6 +3892,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-07T11:05:59+00:00",
+      "slot_key": "en-1-2026-11-07",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "26",
+      "reciter": "minshawi",
+      "minutes": 29.3,
+      "title": "Surah Ash-Shu'ara (The Poets) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:28891512",
+        "pexels:38259678",
+        "pexels:7157038",
+        "pexels:37309738",
+        "pexels:36657220",
+        "pexels:9592604",
+        "pexels:20600550",
+        "pexels:15708467"
+      ],
+      "video_id": "t6hwPs1EFDs",
+      "url": "https://youtu.be/t6hwPs1EFDs",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
