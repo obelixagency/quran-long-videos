@@ -4000,6 +4000,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-08T11:05:57+00:00",
+      "slot_key": "en-1-2026-11-08",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "27",
+      "reciter": "abdulbasit",
+      "minutes": 32.2,
+      "title": "Surah An-Naml (The Ant) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:28650479",
+        "pexels:34905760",
+        "pexels:34470558",
+        "pexels:28891508",
+        "pexels:40008379",
+        "pexels:29568705",
+        "pexels:28870601",
+        "pexels:36151769"
+      ],
+      "video_id": "dw5QgpWSYbY",
+      "url": "https://youtu.be/dw5QgpWSYbY",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
