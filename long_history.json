@@ -4027,6 +4027,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-08T16:06:00+00:00",
+      "slot_key": "ar-2-2026-11-08",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "14",
+      "reciter": "minshawi",
+      "minutes": 53.8,
+      "title": "الجزء الرابع عشر كاملًا | الشيخ محمد صديق المنشاوي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:35232259",
+        "pexels:15414910",
+        "pexels:5019813",
+        "pexels:30872234",
+        "pexels:11598545",
+        "pexels:38307931",
+        "pexels:36111065",
+        "pexels:38502453"
+      ],
+      "video_id": "yi6GWXaye90",
+      "url": "https://youtu.be/yi6GWXaye90",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
