@@ -4135,6 +4135,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-09T16:05:52+00:00",
+      "slot_key": "ar-2-2026-11-09",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "sleep",
+      "key": "sleep",
+      "reciter": "maher",
+      "minutes": 15.0,
+      "title": "قرآن قبل النوم | آية الكرسي وخواتيم البقرة والسجدة والملك والمعوذات | الشيخ ماهر المعيقلي",
+      "backgrounds": [
+        "pexels:13883092",
+        "pexels:12796339",
+        "pexels:7608893",
+        "pexels:34623325",
+        "pexels:12607634",
+        "pexels:6128197",
+        "pexels:9010840",
+        "pexels:33227529"
+      ],
+      "video_id": "Qc5HVrfhfKo",
+      "url": "https://youtu.be/Qc5HVrfhfKo",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
