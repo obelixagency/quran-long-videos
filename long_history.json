@@ -4108,6 +4108,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-09T11:05:55+00:00",
+      "slot_key": "en-1-2026-11-09",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "28",
+      "reciter": "ayyoub",
+      "minutes": 37.1,
+      "title": "Surah Al-Qasas (The Stories) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:29266251",
+        "pexels:5623807",
+        "pexels:5308783",
+        "pexels:13968694",
+        "pexels:9540152",
+        "pexels:7680846",
+        "pexels:10979589",
+        "pexels:4057958"
+      ],
+      "video_id": "AIvy6dIpMrs",
+      "url": "https://youtu.be/AIvy6dIpMrs",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
