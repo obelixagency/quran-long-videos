@@ -4081,6 +4081,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-09T04:06:14+00:00",
+      "slot_key": "ar-1-2026-11-09",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "29",
+      "reciter": "ayyoub",
+      "minutes": 25.1,
+      "title": "سورة العنكبوت كاملة | الشيخ محمد أيوب | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:4216160",
+        "pexels:5592485",
+        "pexels:17831119",
+        "pexels:36466614",
+        "pexels:12014730",
+        "pexels:6583334",
+        "pexels:16681521",
+        "pexels:12657349"
+      ],
+      "video_id": "SKoFDpdJDlQ",
+      "url": "https://youtu.be/SKoFDpdJDlQ",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
