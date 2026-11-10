@@ -4243,6 +4243,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-10T16:05:52+00:00",
+      "slot_key": "ar-2-2026-11-10",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "15",
+      "reciter": "husary",
+      "minutes": 89.5,
+      "title": "الجزء الخامس عشر كاملًا | الشيخ محمود خليل الحصري | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:39083598",
+        "pexels:19722029",
+        "pexels:29660253",
+        "pexels:16381948",
+        "pexels:13237112",
+        "pexels:30152883",
+        "pexels:40427686",
+        "pexels:34620659"
+      ],
+      "video_id": "B_IXittwgXo",
+      "url": "https://youtu.be/B_IXittwgXo",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
