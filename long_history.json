@@ -4189,6 +4189,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-10T04:11:38+00:00",
+      "slot_key": "ar-1-2026-11-10",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "30",
+      "reciter": "hudhaify",
+      "minutes": 20.4,
+      "title": "سورة الروم كاملة | الشيخ علي الحذيفي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:26621653",
+        "pexels:4685052",
+        "pexels:11536955",
+        "pexels:12657352",
+        "pexels:4739662",
+        "pexels:39337104",
+        "pexels:5632725",
+        "pexels:10796508"
+      ],
+      "video_id": "ZaKGGY29BAo",
+      "url": "https://youtu.be/ZaKGGY29BAo",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
