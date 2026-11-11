@@ -4297,6 +4297,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-11T04:06:20+00:00",
+      "slot_key": "ar-1-2026-11-11",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "33",
+      "reciter": "abdulbasit",
+      "minutes": 27.4,
+      "title": "سورة الأحزاب كاملة | الشيخ عبد الباسط عبد الصمد | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:18933974",
+        "pexels:35025673",
+        "pexels:5173766",
+        "pexels:36352166",
+        "pexels:28891503",
+        "pexels:11449150",
+        "pexels:10027098",
+        "pexels:34505128"
+      ],
+      "video_id": "gtkTCpfJkPI",
+      "url": "https://youtu.be/gtkTCpfJkPI",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
