@@ -4270,6 +4270,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-10T23:06:04+00:00",
+      "slot_key": "en-2-2026-11-10",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "15",
+      "reciter": "minshawi",
+      "minutes": 59.1,
+      "title": "Juz 15 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:855617",
+        "pexels:38258815",
+        "pexels:3706326",
+        "pexels:10397245",
+        "pexels:13236825",
+        "pexels:33698582",
+        "pexels:27307945",
+        "pexels:13126269"
+      ],
+      "video_id": "IkQa1Z0BNwY",
+      "url": "https://youtu.be/IkQa1Z0BNwY",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
