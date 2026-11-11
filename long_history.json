@@ -4351,6 +4351,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-11T18:06:41+00:00",
+      "slot_key": "ar-2-2026-11-11",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "duas",
+      "key": "duas",
+      "reciter": "tablawi",
+      "minutes": 13.3,
+      "title": "أدعية من القرآن الكريم | من دعاء الأنبياء والمؤمنين | الشيخ محمد الطبلاوي",
+      "backgrounds": [
+        "pexels:17833704",
+        "pexels:28427109",
+        "pexels:40950811",
+        "pexels:5652680",
+        "pexels:11518245",
+        "pexels:35382227",
+        "pexels:11115722",
+        "pexels:5304548"
+      ],
+      "video_id": "PJnM9nU2Yi4",
+      "url": "https://youtu.be/PJnM9nU2Yi4",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
