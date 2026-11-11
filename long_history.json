@@ -4324,6 +4324,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-11T11:05:50+00:00",
+      "slot_key": "en-1-2026-11-11",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "30",
+      "reciter": "husary",
+      "minutes": 29.3,
+      "title": "Surah Ar-Rum (The Romans) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:38520557",
+        "pexels:7437128",
+        "pexels:20737739",
+        "pexels:32628145",
+        "pexels:7220614",
+        "pexels:7151641",
+        "pexels:30791936",
+        "pexels:17833699"
+      ],
+      "video_id": "XhY8JGu30HE",
+      "url": "https://youtu.be/XhY8JGu30HE",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
