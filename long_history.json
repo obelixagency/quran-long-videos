@@ -4459,6 +4459,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-12T16:05:52+00:00",
+      "slot_key": "ar-2-2026-11-12",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "16",
+      "reciter": "ayyoub",
+      "minutes": 61.0,
+      "title": "الجزء السادس عشر كاملًا | الشيخ محمد أيوب | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:35655927",
+        "pexels:35274206",
+        "pexels:16681525",
+        "pexels:12657354",
+        "pexels:8050136",
+        "pexels:5061362",
+        "pexels:33851894",
+        "pexels:15226109"
+      ],
+      "video_id": "QFxxkIASS-0",
+      "url": "https://youtu.be/QFxxkIASS-0",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
