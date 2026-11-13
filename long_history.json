@@ -4567,6 +4567,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-13T16:06:11+00:00",
+      "slot_key": "ar-2-2026-11-13",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "sleep",
+      "key": "sleep",
+      "reciter": "hudhaify",
+      "minutes": 22.2,
+      "title": "قرآن قبل النوم | آية الكرسي وخواتيم البقرة والسجدة والملك والمعوذات | الشيخ علي الحذيفي",
+      "backgrounds": [
+        "pexels:35548242",
+        "pexels:4130853",
+        "pexels:37136612",
+        "pexels:17435187",
+        "pexels:13293952",
+        "pexels:12634422",
+        "pexels:19366762",
+        "pexels:19366764"
+      ],
+      "video_id": "CBXqQdvt7ic",
+      "url": "https://youtu.be/CBXqQdvt7ic",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
