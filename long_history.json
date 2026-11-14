@@ -4648,6 +4648,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-14T11:06:26+00:00",
+      "slot_key": "en-1-2026-11-14",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "34",
+      "reciter": "minshawi",
+      "minutes": 18.6,
+      "title": "Surah Saba (Sheba) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:38053110",
+        "pexels:29143113",
+        "pexels:10234379",
+        "pexels:5668625",
+        "pexels:40529731",
+        "pexels:25559412",
+        "pexels:27546116",
+        "pexels:20597708"
+      ],
+      "video_id": "5ozU7QX7qS0",
+      "url": "https://youtu.be/5ozU7QX7qS0",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
