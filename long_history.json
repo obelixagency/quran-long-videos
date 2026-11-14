@@ -4675,6 +4675,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-14T16:06:02+00:00",
+      "slot_key": "ar-2-2026-11-14",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "17",
+      "reciter": "abdulbasit",
+      "minutes": 63.6,
+      "title": "الجزء السابع عشر كاملًا | الشيخ عبد الباسط عبد الصمد | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:12717007",
+        "pexels:37060102",
+        "pexels:28782169",
+        "pexels:17833698",
+        "pexels:16923263",
+        "pexels:13322952",
+        "pexels:6580066",
+        "pexels:4060762"
+      ],
+      "video_id": "MBcsqX_rR0Y",
+      "url": "https://youtu.be/MBcsqX_rR0Y",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
