@@ -4756,6 +4756,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-15T11:06:06+00:00",
+      "slot_key": "en-1-2026-11-15",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "35",
+      "reciter": "abdulbasit",
+      "minutes": 16.7,
+      "title": "Surah Fatir (Originator) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:29338368",
+        "pexels:15098017",
+        "pexels:17302276",
+        "pexels:17824025",
+        "pexels:15059577",
+        "pexels:7388473",
+        "pexels:6569016",
+        "pexels:33374402"
+      ],
+      "video_id": "FLZAh93Xrrk",
+      "url": "https://youtu.be/FLZAh93Xrrk",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
