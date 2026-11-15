@@ -4783,6 +4783,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-15T16:05:51+00:00",
+      "slot_key": "ar-2-2026-11-15",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "duas",
+      "key": "duas",
+      "reciter": "minshawi",
+      "minutes": 12.8,
+      "title": "أدعية من القرآن الكريم | من دعاء الأنبياء والمؤمنين | الشيخ محمد صديق المنشاوي",
+      "backgrounds": [
+        "pexels:31291128",
+        "pexels:8110359",
+        "pexels:6286978",
+        "pexels:18312781",
+        "pexels:38500911",
+        "pexels:29493911",
+        "pexels:12657350",
+        "pexels:40454293"
+      ],
+      "video_id": "AyoE-rve5oQ",
+      "url": "https://youtu.be/AyoE-rve5oQ",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
