@@ -4729,6 +4729,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-15T04:06:04+00:00",
+      "slot_key": "ar-1-2026-11-15",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "37",
+      "reciter": "tablawi",
+      "minutes": 25.5,
+      "title": "سورة الصافات كاملة | الشيخ محمد الطبلاوي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:20698334",
+        "pexels:10756361",
+        "pexels:5624051",
+        "pexels:33199721",
+        "pexels:41017691",
+        "pexels:33911366",
+        "pexels:17584730",
+        "pexels:6772577"
+      ],
+      "video_id": "ErWbZfZQ-h0",
+      "url": "https://youtu.be/ErWbZfZQ-h0",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
