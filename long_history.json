@@ -4702,6 +4702,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-14T23:05:57+00:00",
+      "slot_key": "en-2-2026-11-14",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "17",
+      "reciter": "husary",
+      "minutes": 81.1,
+      "title": "Juz 17 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:39842568",
+        "pexels:33053871",
+        "pexels:4364654",
+        "pexels:12047275",
+        "pexels:12742745",
+        "pexels:2570206",
+        "pexels:34505200",
+        "pexels:2344549"
+      ],
+      "video_id": "8XlZ4DWqsgU",
+      "url": "https://youtu.be/8XlZ4DWqsgU",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
