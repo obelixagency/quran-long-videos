@@ -4891,6 +4891,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-16T16:05:59+00:00",
+      "slot_key": "ar-2-2026-11-16",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "18",
+      "reciter": "maher",
+      "minutes": 48.5,
+      "title": "الجزء الثامن عشر كاملًا | الشيخ ماهر المعيقلي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:35574245",
+        "pexels:20698169",
+        "pexels:35101190",
+        "pexels:33170755",
+        "pexels:28219763",
+        "pexels:36998594",
+        "pexels:28798458",
+        "pexels:35232259"
+      ],
+      "video_id": "hHl4AvwSGAQ",
+      "url": "https://youtu.be/hHl4AvwSGAQ",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
