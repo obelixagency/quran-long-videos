@@ -4864,6 +4864,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-16T11:06:03+00:00",
+      "slot_key": "en-1-2026-11-16",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "37",
+      "reciter": "ayyoub",
+      "minutes": 25.9,
+      "title": "Surah As-Saffat (Those who set the Ranks) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:5527622",
+        "pexels:40393750",
+        "pexels:33549992",
+        "pexels:34162311",
+        "pexels:31574277",
+        "pexels:20737732",
+        "pexels:40008379",
+        "pexels:29464432"
+      ],
+      "video_id": "uIfDieSBY-M",
+      "url": "https://youtu.be/uIfDieSBY-M",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
