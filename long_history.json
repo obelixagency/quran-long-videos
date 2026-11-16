@@ -4918,6 +4918,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-16T23:05:53+00:00",
+      "slot_key": "en-2-2026-11-16",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "18",
+      "reciter": "hudhaify",
+      "minutes": 61.3,
+      "title": "Juz 18 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:4922985",
+        "pexels:35331259",
+        "pexels:7610644",
+        "pexels:30767622",
+        "pexels:19078140",
+        "pexels:31609259",
+        "pexels:27919158",
+        "pexels:27457177"
+      ],
+      "video_id": "4K2NwoxrS3s",
+      "url": "https://youtu.be/4K2NwoxrS3s",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
