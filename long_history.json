@@ -4837,6 +4837,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-16T04:05:49+00:00",
+      "slot_key": "ar-1-2026-11-16",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "38",
+      "reciter": "ayyoub",
+      "minutes": 18.9,
+      "title": "سورة ص كاملة | الشيخ محمد أيوب | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:12858363",
+        "pexels:28865204",
+        "pexels:34470558",
+        "pexels:12742754",
+        "pexels:4525344",
+        "pexels:12854830",
+        "pexels:28427111",
+        "pexels:8865223"
+      ],
+      "video_id": "mxeD2oiRV5g",
+      "url": "https://youtu.be/mxeD2oiRV5g",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
