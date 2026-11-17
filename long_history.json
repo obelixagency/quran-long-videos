@@ -4972,6 +4972,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-17T11:05:53+00:00",
+      "slot_key": "en-1-2026-11-17",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "38",
+      "reciter": "maher",
+      "minutes": 11.7,
+      "title": "Surah Sad (The Letter \"Saad\") Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:9592604",
+        "pexels:11404058",
+        "pexels:11598545",
+        "pexels:16681528",
+        "pexels:5728372",
+        "pexels:8865227",
+        "pexels:8150522",
+        "pexels:29568705"
+      ],
+      "video_id": "09yhBlygXp0",
+      "url": "https://youtu.be/09yhBlygXp0",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
