@@ -4999,6 +4999,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-17T16:06:25+00:00",
+      "slot_key": "ar-2-2026-11-17",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "sleep",
+      "key": "sleep",
+      "reciter": "husary",
+      "minutes": 31.1,
+      "title": "قرآن قبل النوم | آية الكرسي وخواتيم البقرة والسجدة والملك والمعوذات | الشيخ محمود خليل الحصري",
+      "backgrounds": [
+        "pexels:5884289",
+        "pexels:40576307",
+        "pexels:5820450",
+        "pexels:29116778",
+        "pexels:35834780",
+        "pexels:16518006",
+        "pexels:38976184",
+        "pexels:32585519"
+      ],
+      "video_id": "OhUFIKRFc-U",
+      "url": "https://youtu.be/OhUFIKRFc-U",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
