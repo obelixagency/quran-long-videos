@@ -5107,6 +5107,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-18T16:05:54+00:00",
+      "slot_key": "ar-2-2026-11-18",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "19",
+      "reciter": "tablawi",
+      "minutes": 60.3,
+      "title": "الجزء التاسع عشر كاملًا | الشيخ محمد الطبلاوي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:29660253",
+        "pexels:16381948",
+        "pexels:34623325",
+        "pexels:28100361",
+        "pexels:39894660",
+        "pexels:8251503",
+        "pexels:13883092",
+        "pexels:6583334"
+      ],
+      "video_id": "IXzlXsv8qg0",
+      "url": "https://youtu.be/IXzlXsv8qg0",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
