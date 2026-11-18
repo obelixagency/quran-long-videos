@@ -3,10 +3,12 @@ name: Long videos (YouTube)
 on:
   schedule:
     # UTC. Rendering takes 20–60 min, so the video goes live a little after these times.
-    - cron: "5 4 * * *"    # Arabic – slot 1: a full surah (Al-Kahf on Fridays)   ≈ 7am Cairo
-    - cron: "5 11 * * *"   # English – slot 1                                    ≈ 7am New York
-    - cron: "5 16 * * *"   # Arabic – slot 2: juz / Quran before sleep / duas     ≈ 7pm Cairo
-    - cron: "5 23 * * *"   # English – slot 2                                    ≈ 7pm New York
+    # Winter time (Cairo UTC+2, New York UTC-5) – moved +1h on 2026-11-18 so the local times stay the same.
+    # In summer (Cairo UTC+3 from late April, New York UTC-4 from March) move every line back 1 hour.
+    - cron: "5 5 * * *"    # Arabic – slot 1: a full surah (Al-Kahf on Fridays)   ≈ 7am Cairo
+    - cron: "5 12 * * *"   # English – slot 1                                    ≈ 7am New York
+    - cron: "5 17 * * *"   # Arabic – slot 2: juz / Quran before sleep / duas     ≈ 7pm Cairo
+    - cron: "5 0 * * *"    # English – slot 2                                    ≈ 7pm New York
   workflow_dispatch:
     inputs:
       channel:
@@ -65,7 +67,7 @@ jobs:
             A="--auto --publish"
             CRON='${{ github.event.schedule }}'
             if [ -n "$CRON" ]; then
-              case "$CRON" in "5 4 * * *") C=ar; S=1;; "5 11 * * *") C=en; S=1;; "5 16 * * *") C=ar; S=2;; *) C=en; S=2;; esac
+              case "$CRON" in "5 5 * * *") C=ar; S=1;; "5 12 * * *") C=en; S=1;; "5 17 * * *") C=ar; S=2;; *) C=en; S=2;; esac
               EXP=$(date -u -d "$(date -u +%F) $(echo "$CRON" | awk '{printf "%02d:%02d", $2, $1}')" +%s); NOW=$(date -u +%s)
               if [ "$EXP" -gt "$NOW" ]; then EXP=$((EXP - 86400)); fi
               LATE=$(( (NOW - EXP) / 60 )); echo "cron $CRON started $LATE min late"

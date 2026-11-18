@@ -32,7 +32,7 @@ jobs:
           REPO = os.environ["GITHUB_REPOSITORY"]
           API = f"https://api.github.com/repos/{REPO}"
           H = {"Authorization": f"Bearer {os.environ['GH_TOKEN']}", "Accept": "application/vnd.github+json"}
-          SLOTS = [(4, 5, "ar", 1), (11, 5, "en", 1), (16, 5, "ar", 2), (23, 5, "en", 2)]  # = long-video.yml crons
+          SLOTS = [(5, 5, "ar", 1), (12, 5, "en", 1), (17, 5, "ar", 2), (0, 5, "en", 2)]  # = long-video.yml crons (winter)
           now = dt.datetime.now(dt.timezone.utc)
           hist = json.load(open("long_history.json"))["videos"] if os.path.exists("long_history.json") else []
           keys = {v.get("slot_key") for v in hist if v.get("video_id")}
