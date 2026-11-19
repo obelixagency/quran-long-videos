@@ -5188,6 +5188,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-19T11:05:51+00:00",
+      "slot_key": "en-1-2026-11-19",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "40",
+      "reciter": "tablawi",
+      "minutes": 32.7,
+      "title": "Surah Ghafir (The Forgiver) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:5652687",
+        "pexels:40950811",
+        "pexels:36111065",
+        "pexels:36510380",
+        "pexels:28427109",
+        "pexels:30791936",
+        "pexels:30778285",
+        "pexels:7437128"
+      ],
+      "video_id": "YwYf4z8i-TA",
+      "url": "https://youtu.be/YwYf4z8i-TA",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
