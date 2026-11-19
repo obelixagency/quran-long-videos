@@ -5134,6 +5134,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-18T23:06:01+00:00",
+      "slot_key": "en-2-2026-11-18",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "19",
+      "reciter": "abdulbasit",
+      "minutes": 64.2,
+      "title": "Juz 19 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:5597041",
+        "pexels:5722280",
+        "pexels:9540152",
+        "pexels:4364658",
+        "pexels:30152883",
+        "pexels:9328701",
+        "pexels:35356637",
+        "pexels:40426052"
+      ],
+      "video_id": "Ahuan55lsPA",
+      "url": "https://youtu.be/Ahuan55lsPA",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
