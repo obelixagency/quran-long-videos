@@ -5323,6 +5323,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-20T16:06:40+00:00",
+      "slot_key": "ar-2-2026-11-20",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "20",
+      "reciter": "hudhaify",
+      "minutes": 62.0,
+      "title": "الجزء العشرون كاملًا | الشيخ علي الحذيفي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:8050136",
+        "pexels:5632851",
+        "pexels:36901709",
+        "pexels:5536558",
+        "pexels:5308819",
+        "pexels:33739036",
+        "pexels:28112530",
+        "pexels:38367288"
+      ],
+      "video_id": "WC5fZ6DWJl0",
+      "url": "https://youtu.be/WC5fZ6DWJl0",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
