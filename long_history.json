@@ -5269,6 +5269,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-20T04:05:50+00:00",
+      "slot_key": "ar-1-2026-11-20",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "18",
+      "reciter": "maher",
+      "minutes": 25.2,
+      "title": "سورة الكهف كاملة يوم الجمعة | الشيخ ماهر المعيقلي | نور ما بين الجمعتين",
+      "backgrounds": [
+        "pexels:35371501",
+        "pexels:9970849",
+        "pexels:37669693",
+        "pexels:8858430",
+        "pexels:26621653",
+        "pexels:32628145",
+        "pexels:7245693",
+        "pexels:29143105"
+      ],
+      "video_id": "_pCc8-ynk0E",
+      "url": "https://youtu.be/_pCc8-ynk0E",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
