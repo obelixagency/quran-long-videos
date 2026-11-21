@@ -5350,6 +5350,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-20T23:06:09+00:00",
+      "slot_key": "en-2-2026-11-20",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "20",
+      "reciter": "maher",
+      "minutes": 41.9,
+      "title": "Juz 20 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:9010839",
+        "pexels:13141635",
+        "pexels:12657354",
+        "pexels:16681526",
+        "pexels:40706568",
+        "pexels:37309738",
+        "pexels:35274206",
+        "pexels:35574238"
+      ],
+      "video_id": "u2PRZqXGJOA",
+      "url": "https://youtu.be/u2PRZqXGJOA",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
