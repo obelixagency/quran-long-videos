@@ -5539,6 +5539,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-22T16:05:51+00:00",
+      "slot_key": "ar-2-2026-11-22",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "21",
+      "reciter": "minshawi",
+      "minutes": 54.7,
+      "title": "الجزء الحادي والعشرون كاملًا | الشيخ محمد صديق المنشاوي | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:10286772",
+        "pexels:35982735",
+        "pexels:7608893",
+        "pexels:33589210",
+        "pexels:4130853",
+        "pexels:6617658",
+        "pexels:6841921",
+        "pexels:25559412"
+      ],
+      "video_id": "DLYlAaVwXwA",
+      "url": "https://youtu.be/DLYlAaVwXwA",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
