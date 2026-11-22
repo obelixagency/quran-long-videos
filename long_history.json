@@ -5512,6 +5512,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-22T11:05:51+00:00",
+      "slot_key": "en-1-2026-11-22",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "42",
+      "reciter": "abdulbasit",
+      "minutes": 22.2,
+      "title": "Surah Ash-Shuraa (The Consultation) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:19316040",
+        "pexels:37604237",
+        "pexels:17833698",
+        "pexels:28782169",
+        "pexels:37517592",
+        "pexels:27671894",
+        "pexels:36307931",
+        "pexels:7592874"
+      ],
+      "video_id": "UdJofq-htlw",
+      "url": "https://youtu.be/UdJofq-htlw",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
