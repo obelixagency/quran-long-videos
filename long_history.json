@@ -5485,6 +5485,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-22T04:05:53+00:00",
+      "slot_key": "ar-1-2026-11-22",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "43",
+      "reciter": "tablawi",
+      "minutes": 23.9,
+      "title": "سورة الزخرف كاملة | الشيخ محمد الطبلاوي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:33851894",
+        "pexels:1918465",
+        "pexels:34535419",
+        "pexels:35309672",
+        "pexels:19366764",
+        "pexels:15414910",
+        "pexels:7074229",
+        "pexels:2881327"
+      ],
+      "video_id": "Hi0iJG5WpEk",
+      "url": "https://youtu.be/Hi0iJG5WpEk",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
