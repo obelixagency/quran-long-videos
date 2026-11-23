@@ -5620,6 +5620,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-23T11:05:53+00:00",
+      "slot_key": "en-1-2026-11-23",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "43",
+      "reciter": "ayyoub",
+      "minutes": 21.7,
+      "title": "Surah Az-Zukhruf (The Ornaments of Gold) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:31291127",
+        "pexels:20737739",
+        "pexels:2344549",
+        "pexels:14415564",
+        "pexels:5304548",
+        "pexels:4364654",
+        "pexels:2570206",
+        "pexels:15070549"
+      ],
+      "video_id": "gWJMmTG_lnc",
+      "url": "https://youtu.be/gWJMmTG_lnc",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
