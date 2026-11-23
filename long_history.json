@@ -5593,6 +5593,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-23T04:05:50+00:00",
+      "slot_key": "ar-1-2026-11-23",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "45",
+      "reciter": "ayyoub",
+      "minutes": 11.2,
+      "title": "سورة الجاثية كاملة | الشيخ محمد أيوب | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:29350570",
+        "pexels:32076641",
+        "pexels:7437719",
+        "pexels:39137894",
+        "pexels:19669271",
+        "pexels:12796339",
+        "pexels:28734878",
+        "pexels:33053871"
+      ],
+      "video_id": "0Q5czH-klpY",
+      "url": "https://youtu.be/0Q5czH-klpY",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
