@@ -5566,6 +5566,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-22T23:06:15+00:00",
+      "slot_key": "en-2-2026-11-22",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "21",
+      "reciter": "tablawi",
+      "minutes": 57.8,
+      "title": "Juz 21 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:13874228",
+        "pexels:35025673",
+        "pexels:34684726",
+        "pexels:5592485",
+        "pexels:2920545",
+        "pexels:39842568",
+        "pexels:33911366",
+        "pexels:17584730"
+      ],
+      "video_id": "AAI05X1sQ5A",
+      "url": "https://youtu.be/AAI05X1sQ5A",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
