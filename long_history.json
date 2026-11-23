@@ -5647,6 +5647,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-23T16:06:22+00:00",
+      "slot_key": "ar-2-2026-11-23",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "duas",
+      "key": "duas",
+      "reciter": "maher",
+      "minutes": 9.8,
+      "title": "أدعية من القرآن الكريم | من دعاء الأنبياء والمؤمنين | الشيخ ماهر المعيقلي",
+      "backgrounds": [
+        "pexels:36945132",
+        "pexels:29338368",
+        "pexels:16923263",
+        "pexels:41017691",
+        "pexels:8317108",
+        "pexels:7388473",
+        "pexels:20143858",
+        "pexels:38502453"
+      ],
+      "video_id": "I6tDS2p-Ke4",
+      "url": "https://youtu.be/I6tDS2p-Ke4",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
