@@ -5755,6 +5755,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-24T16:05:51+00:00",
+      "slot_key": "ar-2-2026-11-24",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "22",
+      "reciter": "husary",
+      "minutes": 83.6,
+      "title": "الجزء الثاني والعشرون كاملًا | الشيخ محمود خليل الحصري | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:38510021",
+        "pexels:18312781",
+        "pexels:10979384",
+        "pexels:8033337",
+        "pexels:5091091",
+        "pexels:6810005",
+        "pexels:19078140",
+        "pexels:31609259"
+      ],
+      "video_id": "iPbLhK2Q7NU",
+      "url": "https://youtu.be/iPbLhK2Q7NU",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
