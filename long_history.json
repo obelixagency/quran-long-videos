@@ -5782,6 +5782,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-24T23:05:55+00:00",
+      "slot_key": "en-2-2026-11-24",
+      "channel": "en",
+      "slot": 2,
+      "kind": "juz",
+      "key": "22",
+      "reciter": "minshawi",
+      "minutes": 58.2,
+      "title": "Juz 22 Full | Beautiful Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:7157038",
+        "pexels:34645011",
+        "pexels:34470558",
+        "pexels:38258815",
+        "pexels:20597708",
+        "pexels:6285858",
+        "pexels:11887609",
+        "pexels:19366762"
+      ],
+      "video_id": "kfM-g16AsDc",
+      "url": "https://youtu.be/kfM-g16AsDc",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
