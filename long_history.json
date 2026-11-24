@@ -5701,6 +5701,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-24T04:05:51+00:00",
+      "slot_key": "ar-1-2026-11-24",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "46",
+      "reciter": "hudhaify",
+      "minutes": 16.1,
+      "title": "سورة الأحقاف كاملة | الشيخ علي الحذيفي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:35655927",
+        "pexels:39506681",
+        "pexels:35382227",
+        "pexels:39894293",
+        "pexels:9212195",
+        "pexels:5632725",
+        "pexels:4685052",
+        "pexels:37060102"
+      ],
+      "video_id": "Zq8cxveEAdg",
+      "url": "https://youtu.be/Zq8cxveEAdg",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
