@@ -5809,6 +5809,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-25T04:06:19+00:00",
+      "slot_key": "ar-1-2026-11-25",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "47",
+      "reciter": "abdulbasit",
+      "minutes": 14.5,
+      "title": "سورة محمد كاملة | الشيخ عبد الباسط عبد الصمد | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:12944866",
+        "pexels:35612654",
+        "pexels:5624051",
+        "pexels:29464432",
+        "pexels:855617",
+        "pexels:12742745",
+        "pexels:36151769",
+        "pexels:28219763"
+      ],
+      "video_id": "f2dFvTm_yQw",
+      "url": "https://youtu.be/f2dFvTm_yQw",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
