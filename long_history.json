@@ -5890,6 +5890,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-25T23:05:49+00:00",
+      "slot_key": "en-2-2026-11-25",
+      "channel": "en",
+      "slot": 2,
+      "kind": "sleep",
+      "key": "sleep",
+      "reciter": "abdulbasit",
+      "minutes": 20.4,
+      "title": "Quran Before Sleep | Ayat al-Kursi, Al-Baqarah Ending, As-Sajdah, Al-Mulk & the 3 Quls",
+      "backgrounds": [
+        "pexels:12657352",
+        "pexels:12657350",
+        "pexels:30449682",
+        "pexels:39238145",
+        "pexels:30767622",
+        "pexels:7610644",
+        "pexels:35045294",
+        "pexels:28650479"
+      ],
+      "video_id": "r5ea-bnacDc",
+      "url": "https://youtu.be/r5ea-bnacDc",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
