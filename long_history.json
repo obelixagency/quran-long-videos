@@ -5836,6 +5836,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-25T11:05:53+00:00",
+      "slot_key": "en-1-2026-11-25",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "46",
+      "reciter": "husary",
+      "minutes": 19.6,
+      "title": "Surah Al-Ahqaf (The Wind-Curved Sandhills) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:4922985",
+        "pexels:15098017",
+        "pexels:12742754",
+        "pexels:37595887",
+        "pexels:40454293",
+        "pexels:5308783",
+        "pexels:38259678",
+        "pexels:7592159"
+      ],
+      "video_id": "xazvXGXpwQQ",
+      "url": "https://youtu.be/xazvXGXpwQQ",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
