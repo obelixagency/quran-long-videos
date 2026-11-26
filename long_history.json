@@ -5971,6 +5971,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-26T16:05:49+00:00",
+      "slot_key": "ar-2-2026-11-26",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "23",
+      "reciter": "ayyoub",
+      "minutes": 69.3,
+      "title": "الجزء الثالث والعشرون كاملًا | الشيخ محمد أيوب | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:20600550",
+        "pexels:32918026",
+        "pexels:40454298",
+        "pexels:5317790",
+        "pexels:40550181",
+        "pexels:5722280",
+        "pexels:33170755",
+        "pexels:35101190"
+      ],
+      "video_id": "x0zhatUYihM",
+      "url": "https://youtu.be/x0zhatUYihM",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
