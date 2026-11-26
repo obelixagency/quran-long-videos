@@ -5944,6 +5944,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "سَكينة يومية Daily Sakina"
+    },
+    {
+      "date": "2026-11-26T11:06:03+00:00",
+      "slot_key": "en-1-2026-11-26",
+      "channel": "en",
+      "slot": 1,
+      "kind": "surah",
+      "key": "47",
+      "reciter": "tablawi",
+      "minutes": 12.3,
+      "title": "Surah Muhammad (Muhammad) Full | Calm Quran Recitation with English Translation",
+      "backgrounds": [
+        "pexels:12657349",
+        "pexels:11598545",
+        "pexels:13754948",
+        "pexels:41235787",
+        "pexels:7680846",
+        "pexels:5019813",
+        "pexels:29116778",
+        "pexels:38053110"
+      ],
+      "video_id": "hb7GWfxtGWU",
+      "url": "https://youtu.be/hb7GWfxtGWU",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "Daily Serenity"
     }
   ]
 }
