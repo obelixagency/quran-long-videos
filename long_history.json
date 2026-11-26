@@ -5917,6 +5917,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-26T04:05:49+00:00",
+      "slot_key": "ar-1-2026-11-26",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "51",
+      "reciter": "minshawi",
+      "minutes": 7.9,
+      "title": "سورة الذاريات كاملة | الشيخ محمد صديق المنشاوي | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:27658737",
+        "pexels:15708467",
+        "pexels:16508157",
+        "pexels:13968694",
+        "pexels:39299362",
+        "pexels:36466614",
+        "pexels:15059577",
+        "pexels:11404058"
+      ],
+      "video_id": "njUzzG7_dK8",
+      "url": "https://youtu.be/njUzzG7_dK8",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
