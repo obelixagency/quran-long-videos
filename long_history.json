@@ -6079,6 +6079,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-27T16:05:51+00:00",
+      "slot_key": "ar-2-2026-11-27",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "duas",
+      "key": "duas",
+      "reciter": "hudhaify",
+      "minutes": 12.4,
+      "title": "أدعية من القرآن الكريم | من دعاء الأنبياء والمؤمنين | الشيخ علي الحذيفي",
+      "backgrounds": [
+        "pexels:34505200",
+        "pexels:10756361",
+        "pexels:8110359",
+        "pexels:20737732",
+        "pexels:9540152",
+        "pexels:12854830",
+        "pexels:40008379",
+        "pexels:33199721"
+      ],
+      "video_id": "syibNGAiQkg",
+      "url": "https://youtu.be/syibNGAiQkg",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
