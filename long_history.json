@@ -6133,6 +6133,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-28T04:05:59+00:00",
+      "slot_key": "ar-1-2026-11-28",
+      "channel": "ar",
+      "slot": 1,
+      "kind": "surah",
+      "key": "52",
+      "reciter": "husary",
+      "minutes": 10.4,
+      "title": "سورة الطور كاملة | الشيخ محمود خليل الحصري | تلاوة هادئة مع الآيات",
+      "backgrounds": [
+        "pexels:31957404",
+        "pexels:40200251",
+        "pexels:6341893",
+        "pexels:40742408",
+        "pexels:37595886",
+        "pexels:40426052",
+        "pexels:40576307",
+        "pexels:11264043"
+      ],
+      "video_id": "jnpr1sNYd98",
+      "url": "https://youtu.be/jnpr1sNYd98",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
