@@ -6187,6 +6187,33 @@
       "playlist": "ok",
       "privacy": "public",
       "yt_channel": "Daily Serenity"
+    },
+    {
+      "date": "2026-11-28T16:05:52+00:00",
+      "slot_key": "ar-2-2026-11-28",
+      "channel": "ar",
+      "slot": 2,
+      "kind": "juz",
+      "key": "24",
+      "reciter": "abdulbasit",
+      "minutes": 62.2,
+      "title": "الجزء الرابع والعشرون كاملًا | الشيخ عبد الباسط عبد الصمد | تلاوة مرتلة",
+      "backgrounds": [
+        "pexels:6569016",
+        "pexels:33512564",
+        "pexels:5061362",
+        "pexels:6901758",
+        "pexels:5652680",
+        "pexels:5652687",
+        "pexels:38307931",
+        "pexels:16681525"
+      ],
+      "video_id": "rnyK5655VtU",
+      "url": "https://youtu.be/rnyK5655VtU",
+      "thumbnail": "ok",
+      "playlist": "ok",
+      "privacy": "public",
+      "yt_channel": "سَكينة يومية Daily Sakina"
     }
   ]
 }
